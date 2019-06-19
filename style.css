@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400");
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400");
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400");
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400");
 * {
   padding: 0;
   margin: 0;
@@ -16,9 +18,9 @@
 
 h1 {
   color: #70C5A4;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 1rem;
 }
 
 header {
@@ -32,6 +34,7 @@ header #header-left {
   height: auto;
   border: #488951;
   position: fixed;
+  z-index: 3000;
   left: 2vw;
   top: 2vw;
 }
@@ -154,13 +157,13 @@ main .accueil #accueil-text img {
 }
 
 main .accueil #accueil-text h3 {
-  font-size: 2.8vw;
+  font-size: 3vw;
   color: #80ed8d;
   line-height: 3rem;
 }
 
 main .accueil #accueil-text p {
-  font-size: 1.8vw;
+  font-size: 2.5vw;
   line-height: 1.5rem;
   color: #488951;
 }
@@ -845,5 +848,771 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
 .contact .container-contact .contact-text h3 {
   text-align: center;
   padding-top: 1.5vh;
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #lien-programme2 {
+    background-color: yellow;
+    padding: 1vw;
+    color: #e7494f;
+    border-radius: 5px;
+  }
+  h1 {
+    color: #70C5A4;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+  }
+  header {
+    height: 15vh;
+    width: 100vw;
+    background-color: #e6ebf4;
+  }
+  header #header-left {
+    width: 10vw;
+    height: auto;
+    border: #488951;
+    position: fixed;
+    left: 2vw;
+    top: 2vw;
+  }
+  header #header-left img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  header #header-right {
+    margin-left: 17%;
+    text-align: center;
+    height: 100%;
+  }
+  header #header-right h1 {
+    padding-top: 5%;
+    font-size: 2rem;
+    letter-spacing: 0.9rem;
+  }
+  header #header-right h4 {
+    color: #488951;
+    font-size: 1.2rem;
+  }
+  nav {
+    position: absolute;
+    width: 100vw;
+    top: 15vh;
+    text-align: center;
+    line-height: 2.4rem;
+    border-radius: 5px;
+    color: white;
+    padding: 1px;
+    padding-right: 2px;
+    background-color: transparent;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: black;
+  }
+  nav #lien-programme:hover {
+    background-color: yellow;
+  }
+  nav #lien-programme:hover a {
+    color: black;
+  }
+  nav #lien-accueil:hover {
+    background-color: #E7494F;
+  }
+  nav #lien-accueil:hover a {
+    color: white;
+  }
+  nav #lien-histoire:hover {
+    background-color: #F2A938;
+  }
+  nav #lien-histoire:hover a {
+    color: white;
+  }
+  nav #lien-tarif:hover {
+    background-color: #12af12;
+  }
+  nav #lien-tarif:hover a {
+    color: white;
+  }
+  nav #lien-faq:hover {
+    background-color: #3030f8;
+  }
+  nav #lien-faq:hover a {
+    color: white;
+  }
+  nav #lien-contact:hover {
+    background-color: #d85ed8;
+  }
+  nav #lien-contact:hover a {
+    color: white;
+  }
+  nav li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #E6EBF4;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  nav li:hover {
+    background-color: #E6EBF4;
+    color: #80ED8E;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  main {
+    margin-left: 17%;
+    margin-top: 2%;
+  }
+  main .accueil {
+    height: 50vh;
+  }
+  main .accueil #accueil-text {
+    text-align: center;
+  }
+  main .accueil #accueil-text img {
+    padding-top: 15vh;
+    height: 40vh;
+    margin-bottom: 10px;
+  }
+  main .accueil #accueil-text h3 {
+    font-size: 4vw;
+    color: #80ed8d;
+    line-height: 2rem;
+  }
+  main .accueil #accueil-text p {
+    font-size: 3vw;
+    line-height: 1rem;
+    color: #488951;
+  }
+  main .accueilvrai-titre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60%;
+    margin: 10vw;
+  }
+  main .accueilvrai-titre img {
+    width: 10%;
+    margin-top: 4vh;
+    display: none;
+  }
+  main .accueilvrai h1 {
+    background-color: #E7494F;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    text-align: center;
+    margin-top: 0vh;
+    padding: 1vh;
+    border-radius: 5px;
+  }
+  main .actualites {
+    width: 70vw;
+    margin-left: 5vw;
+    text-align: center;
+  }
+  main .actualites .actus-et-rentree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .actualites .actus-et-rentree .lesactus {
+    width: 100%;
+  }
+  main .actualites .actus-et-rentree .rentree {
+    width: 100%;
+    height: 360px;
+    padding: 3vw;
+    background-color: #f05d61;
+    text-align: justify;
+    margin-right: 2vw;
+    margin-bottom: 5vh;
+  }
+  main .actualites .actus-et-rentree .rentree p {
+    margin-top: 3vh;
+    color: white;
+    font-size: 3vw;
+  }
+  main .actualites .actus-et-rentree .rentree h2 {
+    padding-top: 3vh;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+  }
+  main .actualites .actus-et-rentree .rentree h3 {
+    padding-top: 3vh;
+    text-align: center;
+    color: white;
+  }
+  main .actualites .actus-et-rentree .rentree a {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 21vw;
+    text-decoration: none;
+  }
+  main .actualites .lesactus div {
+    margin-bottom: 4vh;
+  }
+  main .actualites .lesactus div h3 {
+    color: red;
+    padding-bottom: 1vh;
+    text-decoration: underline;
+  }
+  main .actualites .lesactus #gymnastique h3 {
+    color: black;
+  }
+  main .actualites .lesactus .natation h3 {
+    color: black;
+  }
+  main .actualites .actualites-photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1vh;
+  }
+  main .actualites .actualites-photos div img {
+    width: 30%;
+  }
+  main .histoire #histoire-triangle {
+    margin-top: 5vh;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 400px;
+    border-color: transparent transparent transparent #F2A938;
+  }
+  main .histoire .container-histoire {
+    height: 600px;
+  }
+  main .histoire .container-histoire h1 {
+    text-align: center;
+    padding: 1vw;
+    font-size: 4vw;
+    letter-spacing: 0.4vw;
+    background-color: #F2A938;
+    color: white;
+  }
+  main .histoire .container-histoire .container-histoire-row {
+    margin-top: 8vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+  }
+  main .histoire .container-histoire .container-histoire-row .container-histoire-row-txt {
+    width: 100%;
+    padding: 3vw;
+    border: 2px #F2A938 solid;
+    border-radius: 10px;
+    margin-left: 1vw;
+    background-color: #fcb955;
+    color: maroon;
+    text-align: justify;
+    line-height: 1.3rem;
+  }
+  main .histoire .container-histoire .container-histoire-row .container-histoire-row-img {
+    width: 60%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+  main .histoire .container-histoire .container-histoire-row .container-histoire-row-img img {
+    width: 100%;
+  }
+  main .programme {
+    height: 300vh;
+  }
+  main .programme #programme-triangle {
+    margin-top: 8vh;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 400px;
+    border-color: transparent transparent transparent yellow;
+  }
+  main .programme .container-programme h1 {
+    padding: 1vw;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-size: 4vw;
+    background-color: yellow;
+    color: #e7494f;
+  }
+  main .programme .container-programme .container-programme-row {
+    margin-top: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80vw;
+    text-align: center;
+    height: 270vh;
+  }
+  main .programme .container-programme .container-programme-row .horaires {
+    height: 8vh;
+    padding-top: 1vh;
+  }
+  main .programme .container-programme .container-programme-row .adresse {
+    border: 2px #E6EBF4 solid;
+  }
+  main .programme .container-programme .container-programme-row .adresse p {
+    padding: 0.8vw;
+    text-align: center;
+  }
+  main .programme .container-programme .container-programme-row .adresse h4 {
+    background-color: #E6EBF4;
+    padding: 0.5vw;
+  }
+  main .programme .container-programme .container-programme-row .inscriptions {
+    padding: 10px;
+    padding-top: 15px;
+  }
+  main .programme .container-programme .container-programme-row .liens-activites {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .programme .container-programme .container-programme-row h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #497463;
+    padding: 0.5vw;
+  }
+  main .programme .container-programme .container-programme-row h4 {
+    text-align: center;
+    padding: 0.3vw;
+  }
+  main .programme .container-programme .container-programme-row .ath {
+    width: 95%;
+    height: 100%;
+    padding: 1vw;
+    position: relative;
+    border: 3px solid #95D21F;
+    margin-bottom: 5vh;
+  }
+  main .programme .container-programme .container-programme-row .ath img {
+    width: 100%;
+  }
+  main .programme .container-programme .container-programme-row .ath h3 {
+    background-color: #95D21F;
+    padding: 1vw;
+    text-align: left;
+    color: white;
+  }
+  main .programme .container-programme .container-programme-row .gym {
+    width: 95%;
+    height: 100%;
+    padding: 1vw;
+    border: 3px solid #E2463F;
+    margin-bottom: 4vh;
+  }
+  main .programme .container-programme .container-programme-row .gym img {
+    width: 100%;
+  }
+  main .programme .container-programme .container-programme-row .gym h3 {
+    z-index: 350;
+    background-color: #E2463F;
+    color: white;
+    text-align: left;
+    padding: 1vw;
+    font-size: 3vw;
+  }
+  main .programme .container-programme .container-programme-row .natation {
+    width: 95%;
+    height: 100%;
+    padding: 1vw;
+    border: #5DCBFA solid 3px;
+  }
+  main .programme .container-programme .container-programme-row .natation img {
+    width: 100%;
+  }
+  main .programme .container-programme .container-programme-row .natation h3 {
+    margin-top: 1.3vw;
+    background-color: #5DCBFA;
+    color: white;
+    text-align: left;
+    padding: 1vw;
+  }
+  main .tarifs {
+    height: 90vh;
+  }
+  main .tarifs .triangle-tarifs {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 400px;
+    border-color: transparent transparent transparent #12af12;
+    margin-top: 3vh;
+  }
+  main .tarifs h1 {
+    padding: 1vw;
+    text-align: center;
+    font-size: 4vw;
+    background-color: #12af12;
+    color: white;
+    margin-bottom: 3vh;
+  }
+  main .tarifs .container-tableaux {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .tarifs .tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 78vw;
+    height: 25vh;
+  }
+  main .tarifs .tab #tarifsath {
+    background-color: #d1f28e;
+    height: 20vh;
+    width: 40vw;
+    padding-top: 20px;
+  }
+  main .tarifs .tab #tarifsath h4 {
+    height: 40px;
+  }
+  main .tarifs .tab #tarifsgym {
+    background-color: #eda19e;
+    height: 20vh;
+    width: 40vw;
+    padding-top: 20px;
+  }
+  main .tarifs .tab #tarifsgym h4 {
+    height: 40px;
+  }
+  main .tarifs .tab #tarifsnath {
+    background-color: #c4ecfc;
+    height: 20vh;
+    width: 40vw;
+    padding-top: 20px;
+  }
+  main .tarifs .tab #tarifsnath h4 {
+    height: 40px;
+  }
+  main .tarifs .tab .tab-txt {
+    width: 55%;
+    height: 20vh;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  main .tarifs .tab #tab-txt-ath {
+    background-color: #95D21F;
+  }
+  main .tarifs .tab #tab-txt-gym {
+    background-color: #E2463F;
+  }
+  main .tarifs .tab #tab-txt-nat {
+    background-color: #5DCBFA;
+    color: #295160;
+  }
+  main .tarifs .tab .tab-tarifs {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    text-align: center;
+  }
+  main .tarifs .tab .tab-tarifs h4 {
+    margin-right: 1vw;
+    margin-left: 1vw;
+    text-decoration: underline;
+  }
+  main .tarifs .tab .tab-tarifs .nombreenfants {
+    width: 20vw;
+  }
+  main .tarifs .tab .tab-tarifs .tarifsenfants {
+    width: 20vw;
+  }
+  .foire-questions {
+  }
+  .foire-questions #triangle-faq {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 400px;
+    border-color: transparent transparent transparent #3030f8;
+  }
+  .foire-questions h1 {
+    padding: 1vw;
+    text-align: center;
+    font-size: 4vw;
+    background-color: #3030f8;
+    color: white;
+    letter-spacing: 0.5rem;
+  }
+  .foire-questions *, .foire-questions *:before, .foire-questions *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  .foire-questions html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .foire-questions body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    background: #fff;
+    color: #4d5974;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+  }
+  .foire-questions .container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 80vw;
+  }
+  .foire-questions .container h3 {
+    font-size: 1.75rem;
+    color: #373d51;
+    padding: 1.3rem;
+    margin: 0;
+  }
+  .foire-questions .container .accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .foire-questions .container .accordion a:hover, .foire-questions .container .accordion a:hover::after {
+    cursor: pointer;
+    color: #03b5d2;
+  }
+  .foire-questions .container .accordion a:hover::after {
+    border: 1px solid #03b5d2;
+  }
+  .foire-questions .container .accordion a.active {
+    color: #03b5d2;
+    border-bottom: 1px solid #03b5d2;
+  }
+  .foire-questions .container .accordion a::after {
+    font-family: 'Ionicons';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #7288a2;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #7288a2;
+    text-align: center;
+  }
+  .foire-questions .container .accordion a.active::after {
+    font-family: 'Ionicons';
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+  }
+  .foire-questions .container .accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+  }
+  .foire-questions .container .accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .foire-questions .container .accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+  }
+  .contact {
+    height: 100vh;
+  }
+  .contact .triangle-contact {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 400px;
+    border-color: transparent transparent transparent purple;
+    margin-top: 3vh;
+  }
+  .contact h1 {
+    padding: 1vw;
+    text-align: center;
+    font-size: 4vw;
+    background-color: purple;
+    color: white;
+    margin-bottom: 3vh;
+  }
+  .contact .container-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6vh;
+  }
+  .contact .container-contact .contact-logo {
+    width: 80%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-bottom: 5vh;
+  }
+  .contact .container-contact .contact-logo img {
+    width: 40%;
+    margin-left: 17vw;
+  }
+  .contact .container-contact .contact-text {
+    width: 80%;
+    margin-right: 5vw;
+    text-align: center;
+    background-color: #e5b0e2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .contact .container-contact .contact-text h3 {
+    text-align: center;
+    padding-top: 1.5vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */

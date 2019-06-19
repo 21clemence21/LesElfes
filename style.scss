@@ -1,0 +1,778 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+    
+}
+
+#lien-programme2 {
+    background-color: yellow;
+    padding: 1vw;
+    color: rgb(231, 73, 79);
+    border-radius: 5px;
+}
+h1 {
+    color: #70C5A4;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+header {
+    
+    height: 20vh;
+    width: 100vw; 
+    background-color: rgb(230, 235, 244);
+    
+
+    #header-left {
+        width: 10vw; 
+        height: auto;
+        border:  rgb(72, 137, 81);
+        position: fixed; 
+        left: 2vw;
+        top: 2vw;
+        img {
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+
+    #header-right {
+        
+        margin-left: 17%;
+        text-align: center;
+        height: 100%;
+        h1 {
+            padding-top: 1%;
+            font-size: 4rem;
+        }
+
+        h4 {
+            color: rgb(72, 137, 81);
+            font-size: 1.5rem;
+        }
+    }
+}
+
+nav {
+    
+   
+    position: fixed;
+    width: 15vw;
+    top: 40vh;
+    text-align: center;
+    line-height: 2.4rem;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    background-color: #E6EBF4;
+
+    #lien-programme {
+        &:hover {
+            background-color: yellow;
+        }
+        &:hover a {
+            color: black;
+        }
+    }
+
+    #lien-accueil {
+        &:hover {
+            background-color:#E7494F;
+        }
+        &:hover a {
+            color: white;
+        }
+    }
+    
+    #lien-histoire {
+        &:hover {
+            background-color: #F2A938;
+        }
+        &:hover a {
+            color:white;
+        }
+    }
+
+    #lien-tarif {
+        &:hover {
+            background-color: rgb(18, 175, 18);
+        }
+        &:hover a {
+            color: white;
+        }
+    }
+
+    #lien-faq {
+        &:hover{
+            background-color: rgb(48, 48, 248);
+        }
+        &:hover a {
+            color: white;
+        }
+    }
+
+    #lien-contact {
+        &:hover{
+            background-color:rgb(216, 94, 216);
+        }
+        &:hover a {
+            color: white;
+        }
+    }
+
+    li {
+        list-style-type: none;
+       
+        font-size: 1.2rem;
+        color: #E6EBF4;
+        transition: 0.3s ease-in-out ;
+        &:hover {
+            background-color: #E6EBF4;
+            color: #80ED8E;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+
+}
+main{
+   
+    margin-left: 17%;
+    margin-top: 2%;
+
+    .accueil {
+        height: 70vh;
+        
+
+        #accueil-text {
+            text-align: center;
+            
+            img{
+                padding-top: 5vh;
+                height: 40vh;
+                margin-bottom: 10px;
+              
+            }
+    
+            h3 {
+                font-size: 2.8vw;
+                color: rgb(128, 237, 141);
+                line-height: 3rem;
+            }
+    
+            p {
+                font-size: 1.8vw;
+                line-height: 1.5rem;
+                color: rgb(72, 137, 81);
+            }  
+        }  
+    }
+   
+    .accueilvrai-titre {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center;
+        img {
+            width: 10%;
+            margin-top: 4vh;
+        }
+    }
+
+    .accueilvrai h1{
+        background-color: #E7494F;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 5vh;
+        padding: 1vh;
+        margin-left: 3vw;
+        border-radius: 5px;
+        
+    
+    }
+
+    .actualites {
+        width: 70vw;
+        margin-left: 5vw;
+        text-align: center;
+        .actus-et-rentree {
+            display: flex; 
+            flex-direction: row; 
+            justify-content: space-evenly; 
+            align-items: center;
+            .lesactus {
+                width: 100%;
+                
+            }
+            .rentree{
+                width: 110%;
+                height: 60vh;
+                padding: 3vw;
+                background-color: rgb(240, 93, 97);
+                text-align: justify;
+                margin-right: 2vw;
+                p {
+                    margin-top: 1vh;
+                    color: white;
+                    font-size: 1.5vw;
+                }
+               
+                h2 {
+                    text-align: center;
+                    color: white;
+                    text-decoration : underline;
+                }
+                h3 {
+                    text-align: center;
+                    color: white;
+                }
+                 
+                a{
+                  text-align: center;
+                  
+                  margin-left: 9vw;
+                  text-decoration: none;
+                }
+            }
+        }
+
+        .lesactus div{
+            margin-bottom:4vh;
+            h3 {
+                color: red;
+                padding-bottom: 1vh;
+                text-decoration: underline;
+            }
+         
+        }  
+
+        .lesactus #gymnastique {
+            h3 {
+                color: black;
+            }
+        }
+        .lesactus .natation {
+            h3 {
+                color: black;
+            }
+        }
+
+        .actualites-photos {
+            display: flex; 
+            flex-direction: row; 
+            justify-content: center;
+            align-items: center;
+            padding-top: 1vh;       
+            div img {
+                width: 30%;
+            }
+        }
+    }
+
+    .histoire {
+        #histoire-triangle{
+            margin-top: 5vh;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 0 0 800px;
+            border-color: transparent transparent transparent #F2A938;
+        }
+        .container-histoire{
+            height: 100vh;
+            h1{
+                text-align: center;
+                padding: 1vw;
+                font-size: 4vw;
+                
+                background-color: #F2A938;
+                color: white;
+            }
+            .container-histoire-row {
+                margin-top: 8vh;
+                display: flex; 
+                flex-direction : row; 
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+
+        
+                .container-histoire-row-txt{
+                    width: 40%;
+                    padding: 3vw;
+                    border: 2px #F2A938 solid;
+                    
+                    border-radius: 10px;
+                    margin-left: 1vw;
+                    background-color: rgb(252, 185, 85);
+                    color: maroon;
+                    text-align: justify;
+                    line-height: 1.3rem;
+                    
+box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
+                }
+                .container-histoire-row-img{
+                    width: 40%;
+                
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .programme {
+       
+        height: 100vh;
+
+        #programme-triangle{
+           
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 0 0 800px;
+            border-color: transparent transparent transparent yellow;
+        }
+        .container-programme{
+
+            h1{
+                padding: 1vw;
+                text-align: center;               
+                font-size: 4vw;              
+                background-color: yellow;
+                color: rgb(231, 73, 79);
+            }
+            .container-programme-row {
+                display: flex;
+                flex-direction: row; 
+                justify-content: center;
+                align-items: center;
+                width: 80vw;
+                text-align: center;
+                height: 85vh;
+
+                .horaires {
+                    height: 8vh; 
+                    padding-top: 1vh;      
+                }
+           
+                .adresse{
+                   
+                    border: 2px #E6EBF4 solid;
+                    p {
+                        padding: 0.8vw;
+                        text-align: center;
+                    }
+
+                    h4 {
+                        background-color: #E6EBF4;
+                        padding: 0.5vw;
+                    }
+                }
+                
+                .inscriptions  {
+                    padding: 10px;
+                    padding-top: 15px;
+                }
+                .liens-activites{
+                    display: flex; 
+                    flex-direction: row; 
+                    justify-content: space-around;
+                    align-items: center;
+                }
+          
+                h3{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    text-align: center;
+                    color: rgb(73, 116, 99);
+                    padding: 0.5vw;
+                }
+
+                h4{
+                    text-align: center;
+                    padding: 0.3vw;
+                }
+                .ath{
+                    width: 95%;
+                   
+                    height: 100%;
+                    padding: 1vw;
+                    position: relative;
+                  
+                    img {
+                        width: 100%;
+                    }
+                    h3 {
+                        background-color: #95D21F;
+                        padding: 1vw;
+                        text-align: left;
+                        color: white;
+                    }
+                }
+                .gym{
+                    width: 95%;               
+                    height: 100%;
+                    padding: 1vw;
+                    img{
+                        width: 100%;
+                    }
+                    h3 {
+                        
+                        z-index: 350;
+                        background-color: #E2463F;
+                        color: white;
+                        text-align:left;
+                        padding:1vw;
+                        font-size: 1.3vw;
+        
+                    }
+                }
+
+                .natation {
+                    width: 95%;
+                    height: 100%;
+                    padding: 1vw;  
+                    img {
+                        width: 100%;
+                    }
+                    h3 {
+                        margin-top: 1.3vw;
+                        background-color: #5DCBFA;
+                        color: white; 
+                        text-align: left;
+                        padding: 1vw;
+                    }              
+                }
+            }
+        }
+    }
+    //fin de section programme
+
+
+    //debut de section tarifs
+
+    .tarifs {
+        height: 100vh;
+    
+        .triangle-tarifs {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 0 0 800px;
+            border-color: transparent transparent transparent rgb(18, 175, 18);
+            margin-top: 3vh;
+        }
+
+        h1 {
+            padding: 1vw;
+            text-align: center;               
+            font-size: 4vw;              
+            background-color: rgb(18, 175, 18);
+            color: white;
+            margin-bottom: 3vh;
+        }
+
+        .container-tableaux {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tab {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 60vw;
+           
+            height: 25vh;
+
+            #tarifsath {
+                
+                background-color: rgb(209, 242, 142);
+                height: 20vh;
+                width: 30vw;
+                padding-top: 20px;
+                h4 {
+                    height: 40px;
+                }
+            }
+
+            #tarifsgym {
+                
+                background-color: rgb(237, 161, 158);
+                height: 20vh;
+                width: 30vw;
+                padding-top: 20px;
+                h4 {
+                    height: 40px;
+                }
+            }
+
+            #tarifsnath{
+                
+                background-color: rgb(196, 236, 252);
+                height: 20vh;
+                width: 30vw;
+                padding-top: 20px;
+                h4 {
+                    height: 40px;
+                }
+            }
+         
+            .tab-txt {
+                width: 60%;
+                height: 20vh;
+                text-align: center;
+                display: flex; 
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                color: white;
+            }
+
+            #tab-txt-ath {
+                background-color: #95D21F;
+            }
+
+            #tab-txt-gym {
+                background-color: #E2463F;
+            }
+
+            #tab-txt-nat {
+                background-color:#5DCBFA;
+                color: rgb(41, 81, 96);
+            }
+
+            .tab-tarifs {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                text-align: center;
+                h4 {
+                    margin-right: 1vw;
+                    margin-left: 1vw;
+                    text-decoration: underline;
+                }
+                .nombreenfants {
+                    width: 13vw;
+                }
+                .tarifsenfants {
+                    width: 13vw;
+                }
+            }         
+            }
+        }
+
+    }
+
+    .foire-questions {
+       
+        #triangle-faq {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 0 0 800px;
+            border-color: transparent transparent transparent rgb(48, 48, 248);
+        }
+        h1 {
+            padding: 1vw;
+            text-align: center;               
+            font-size: 4vw;              
+            background-color: rgb(48, 48, 248);
+            color: white;
+        }
+        @import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+  background: #fff;
+  color: #4d5974;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 65vw;
+ 
+  h3 {
+    font-size: 1.75rem;
+    color: #373d51;
+    padding: 1.3rem;
+    margin: 0;
+  }
+  .accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .accordion a:hover,.accordion a:hover::after {
+  cursor: pointer;
+  color: #03b5d2;
+    }
+
+    .accordion a:hover::after {
+        border: 1px solid #03b5d2;
+      }
+      .accordion a.active {
+        color: #03b5d2;
+        border-bottom: 1px solid #03b5d2;
+      }
+
+      .accordion a::after {
+        font-family: 'Ionicons';
+        
+        position: absolute;
+        float: right;
+        right: 1rem;
+        font-size: 1rem;
+        color: #7288a2;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid #7288a2;
+        text-align: center;
+      }
+      .accordion a.active::after {
+        font-family: 'Ionicons';
+        color: #03b5d2;
+        border: 1px solid #03b5d2;
+      }
+      .accordion .content {
+        opacity: 0;
+        padding: 0 1rem;
+        max-height: 0;
+        border-bottom: 1px solid #e5e5e5;
+        overflow: hidden;
+        clear: both;
+        -webkit-transition: all 0.2s ease 0.15s;
+        -o-transition: all 0.2s ease 0.15s;
+        transition: all 0.2s ease 0.15s;
+      }
+      
+      .accordion .content p {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+
+.accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+  }
+      }
+
+
+
+}
+
+.contact {
+    height: 70vh;
+
+    .triangle-contact {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 0 800px;
+        border-color: transparent transparent transparent purple;
+        margin-top: 3vh;
+    }
+
+    h1 {
+        padding: 1vw;
+        text-align: center;               
+        font-size: 4vw;              
+        background-color: purple;
+        color: white;
+        margin-bottom: 3vh;
+    }
+   
+
+    .container-contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6vh;
+        
+        .contact-logo {
+            width: 80%;
+            align-self: right;
+            img{
+                width: 40%;
+                margin-left: 20vw;
+            }
+        }
+        .contact-text {
+            h3 {
+                text-align: center;
+                padding-top: 1.5vh;
+            }
+            width: 60%;
+            margin-right: 20vw;
+            text-align: center;
+            background-color: rgb(229, 176, 226);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+

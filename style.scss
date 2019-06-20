@@ -7,14 +7,14 @@
 }
 
 #lien-programme2 {
-    background-color: yellow;
+    background-color: rgb(47, 98, 91);
     padding: 1vw;
-    color: rgb(231, 73, 79);
+    color: white;
     border-radius: 5px;
 }
 
 h1 {
-    color: #70C5A4;
+    color: #2F625B;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 1rem;
@@ -23,7 +23,7 @@ header {
     
     height: 20vh;
     width: 100vw; 
-    background-color: rgb(230, 235, 244);
+    background-color: #CEEFEA;
     
 
     #header-left {
@@ -35,7 +35,7 @@ header {
         left: 2vw;
         top: 2vw;
         img {
-            width: 100%;
+            width: 80%;
             border-radius: 15px;
         }
     }
@@ -48,6 +48,7 @@ header {
         h1 {
             padding-top: 1%;
             font-size: 4rem;
+            
         }
 
         h4 {
@@ -59,29 +60,38 @@ header {
 
 nav {
     
-   
+    a {
+        color: white;
+    }
     position: fixed;
     width: 15vw;
-    top: 40vh;
+    top: 28vh;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 5px;
     color: white;
     padding: 5px;
-    background-color: #E6EBF4;
+    background-color: rgb(86, 165, 153);
 
     #lien-programme {
+        li {
+            padding:3px;
+        }
+       
+        
         &:hover {
-            background-color: yellow;
+            background-color: #2F625B;   
+            
         }
         &:hover a {
-            color: black;
+            padding: 3px;
+            color: white;
         }
     }
 
     #lien-accueil {
         &:hover {
-            background-color:#E7494F;
+            background-color:#2F625B;
         }
         &:hover a {
             color: white;
@@ -90,7 +100,7 @@ nav {
     
     #lien-histoire {
         &:hover {
-            background-color: #F2A938;
+            background-color: #2F625B;
         }
         &:hover a {
             color:white;
@@ -99,7 +109,7 @@ nav {
 
     #lien-tarif {
         &:hover {
-            background-color: rgb(18, 175, 18);
+            background-color: #2F625B;
         }
         &:hover a {
             color: white;
@@ -108,7 +118,7 @@ nav {
 
     #lien-faq {
         &:hover{
-            background-color: rgb(48, 48, 248);
+            background-color: #2F625B;
         }
         &:hover a {
             color: white;
@@ -117,7 +127,7 @@ nav {
 
     #lien-contact {
         &:hover{
-            background-color:rgb(216, 94, 216);
+            background-color:#2F625B;
         }
         &:hover a {
             color: white;
@@ -151,6 +161,11 @@ main{
 
         #accueil-text {
             text-align: center;
+            #bienvenue h3  {
+                color: #2F625B;
+             
+            }
+            
             
             img{
                 padding-top: 5vh;
@@ -161,8 +176,10 @@ main{
     
             h3 {
                 font-size: 3vw;
-                color: rgb(128, 237, 141);
+                color: #2F625B;
                 line-height: 3rem;
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;   
             }
     
             p {
@@ -171,6 +188,17 @@ main{
                 color: rgb(72, 137, 81);
             }  
         }  
+    }
+
+    .accueilvrai {
+        #accueil-triangle{
+            margin-top: 15vh;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 0 0 350px;
+            border-color: transparent transparent transparent #2F625B;
+        }
     }
    
     .accueilvrai-titre {
@@ -182,25 +210,25 @@ main{
             width: 10%;
             margin-top: 4vh;
         }
+        h1{
+            text-align: center;
+            padding: 1vw;
+            font-size: 4vw;
+            background-color: #2F625B;
+            color: white;
+            width: 100vw;
+        }  
     }
 
-    .accueilvrai h1{
-        background-color: #E7494F;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        margin-top: 5vh;
-        padding: 1vh;
-        margin-left: 3vw;
-        border-radius: 5px;
-        
-    
-    }
+ 
 
     .actualites {
         width: 70vw;
         margin-left: 5vw;
         text-align: center;
+    
+
+    
         .actus-et-rentree {
             display: flex; 
             flex-direction: row; 
@@ -214,28 +242,32 @@ main{
                 width: 110%;
                 height: 60vh;
                 padding: 3vw;
-                background-color: rgb(240, 93, 97);
+                background-color: rgb(206, 239, 234);
                 text-align: justify;
                 margin-right: 2vw;
+                border: 2px solid #2F625B;
+                box-shadow: -11px 9px 5px 0px #2F625B;
+                border-radius: 10px;
                 p {
                     margin-top: 1vh;
-                    color: white;
+                    color: #2F625B;
                     font-size: 1.5vw;
                 }
                
                 h2 {
                     text-align: center;
-                    color: white;
+                    color: #2F625B;
                     text-decoration : underline;
                 }
                 h3 {
                     text-align: center;
-                    color: white;
+                    color: #2F625B;
                 }
                  
                 a{
                   text-align: center;
-                  
+                  background-color: #2F625B;
+                  color: white;
                   margin-left: 9vw;
                   text-decoration: none;
                 }
@@ -282,7 +314,7 @@ main{
             height: 0;
             border-style: solid;
             border-width: 20px 0 0 800px;
-            border-color: transparent transparent transparent #F2A938;
+            border-color: transparent transparent transparent #2F625B;
         }
         .container-histoire{
             height: 100vh;
@@ -291,7 +323,7 @@ main{
                 padding: 1vw;
                 font-size: 4vw;
                 
-                background-color: #F2A938;
+                background-color: #2F625B;
                 color: white;
             }
             .container-histoire-row {
@@ -306,16 +338,16 @@ main{
                 .container-histoire-row-txt{
                     width: 40%;
                     padding: 3vw;
-                    border: 2px #F2A938 solid;
+                    border: 2px #2F625B solid;
                     
                     border-radius: 10px;
                     margin-left: 1vw;
-                    background-color: rgb(252, 185, 85);
-                    color: maroon;
+                    background-color: rgb(206, 239, 234);
+                        color: #2F625B;
                     text-align: justify;
                     line-height: 1.3rem;
                     
-box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
+box-shadow: 10px 10px 5px 0px #2F625B;
                 }
                 .container-histoire-row-img{
                     width: 40%;
@@ -340,7 +372,7 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
             height: 0;
             border-style: solid;
             border-width: 20px 0 0 800px;
-            border-color: transparent transparent transparent yellow;
+            border-color: transparent transparent transparent #2F625B;
         }
         .container-programme{
 
@@ -348,8 +380,8 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
                 padding: 1vw;
                 text-align: center;               
                 font-size: 4vw;              
-                background-color: yellow;
-                color: rgb(231, 73, 79);
+                background-color: #2F625B;
+                color: white;
             }
             .container-programme-row {
                 display: flex;
@@ -413,10 +445,10 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
                         width: 100%;
                     }
                     h3 {
-                        background-color: #95D21F;
+                        background-color: rgb(211, 239, 155);
                         padding: 1vw;
                         text-align: left;
-                        color: white;
+                        color: rgb(77, 91, 49);
                     }
                 }
                 .gym{
@@ -429,8 +461,8 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
                     h3 {
                         
                         z-index: 350;
-                        background-color: #E2463F;
-                        color: white;
+                        background-color: rgb(247, 178, 175);
+                        color: rgb(112, 35, 32);
                         text-align:left;
                         padding:1vw;
                         font-size: 1.3vw;
@@ -447,8 +479,8 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
                     }
                     h3 {
                         margin-top: 1.3vw;
-                        background-color: #5DCBFA;
-                        color: white; 
+                        background-color: rgb(176, 230, 252);
+                        color: rgb(54, 72, 79); 
                         text-align: left;
                         padding: 1vw;
                     }              
@@ -469,7 +501,7 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
             height: 0;
             border-style: solid;
             border-width: 20px 0 0 800px;
-            border-color: transparent transparent transparent rgb(18, 175, 18);
+            border-color: transparent transparent transparent #2F625B;
             margin-top: 3vh;
         }
 
@@ -477,7 +509,7 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
             padding: 1vw;
             text-align: center;               
             font-size: 4vw;              
-            background-color: rgb(18, 175, 18);
+            background-color: #2F625B;
             color: white;
             margin-bottom: 3vh;
         }
@@ -500,7 +532,7 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
 
             #tarifsath {
                 
-                background-color: rgb(209, 242, 142);
+                background-color:  rgb(233, 247, 202);
                 height: 20vh;
                 width: 30vw;
                 padding-top: 20px;
@@ -511,7 +543,9 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
 
             #tarifsgym {
                 
-                background-color: rgb(237, 161, 158);
+                
+                background-color: rgb(252, 228, 227);
+                color: rgb(86, 64, 64);
                 height: 20vh;
                 width: 30vw;
                 padding-top: 20px;
@@ -521,8 +555,8 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
             }
 
             #tarifsnath{
-                
-                background-color: rgb(196, 236, 252);
+                background-color: #C4ECFC;
+                color: rgb(57, 76, 84);
                 height: 20vh;
                 width: 30vw;
                 padding-top: 20px;
@@ -543,15 +577,17 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
             }
 
             #tab-txt-ath {
-                background-color: #95D21F;
+                background-color: rgb(211, 239, 154);
+                color: rgb(52, 58, 39);
             }
 
             #tab-txt-gym {
-                background-color: #E2463F;
+                background-color: #F1B1AE;
+                color: rgb(84, 57, 56);
             }
 
             #tab-txt-nat {
-                background-color:#5DCBFA;
+                background-color:#AFE6FC;
                 color: rgb(41, 81, 96);
             }
 
@@ -585,13 +621,13 @@ box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
             height: 0;
             border-style: solid;
             border-width: 20px 0 0 800px;
-            border-color: transparent transparent transparent rgb(48, 48, 248);
+            border-color: transparent transparent transparent #2F625B;
         }
         h1 {
             padding: 1vw;
             text-align: center;               
             font-size: 4vw;              
-            background-color: rgb(48, 48, 248);
+            background-color: #2F625B;
             color: white;
         }
         @import url('https://fonts.googleapis.com/css?family=Hind:300,400');
@@ -651,15 +687,15 @@ body {
 
   .accordion a:hover,.accordion a:hover::after {
   cursor: pointer;
-  color: #03b5d2;
+  color: #2F625B;
     }
 
     .accordion a:hover::after {
-        border: 1px solid #03b5d2;
+        border: 1px solid #2F625B;
       }
       .accordion a.active {
-        color: #03b5d2;
-        border-bottom: 1px solid #03b5d2;
+        color: #2F625B;
+        border-bottom: 1px solid #2F625B;
       }
 
       .accordion a::after {
@@ -681,8 +717,8 @@ body {
       }
       .accordion a.active::after {
         font-family: 'Ionicons';
-        color: #03b5d2;
-        border: 1px solid #03b5d2;
+        color: #2F625B;
+        border: 1px solid #2F625B;
       }
       .accordion .content {
         opacity: 0;
@@ -724,7 +760,7 @@ body {
         height: 0;
         border-style: solid;
         border-width: 20px 0 0 800px;
-        border-color: transparent transparent transparent purple;
+        border-color: transparent transparent transparent #2F625B;
         margin-top: 3vh;
     }
 
@@ -732,7 +768,7 @@ body {
         padding: 1vw;
         text-align: center;               
         font-size: 4vw;              
-        background-color: purple;
+        background-color: #2F625B;
         color: white;
         margin-bottom: 3vh;
     }
@@ -750,7 +786,8 @@ body {
             align-self: right;
             img{
                 width: 40%;
-                margin-left: 20vw;
+                margin-left: 17vw;
+                z-index: 4;
             }
         }
         .contact-text {
@@ -761,13 +798,41 @@ body {
             width: 60%;
             margin-right: 20vw;
             text-align: center;
-            background-color: rgb(229, 176, 226);
+            background-color: #CEEFEA;
+            box-shadow: -2px 2px 19px 14px #2F625B;
             padding: 20px;
             border-radius: 10px;
+            color: rgb(27, 51, 47);
         }
 
     }
 }
+.footer {
+
+    .footer1{
+        width: 100vw;
+        height: 28vh;
+        background-color: #CEEFEA;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        div{
+            width:100%;
+            border: red solid 2px;
+            height: 100%;
+        }
+    
+    }
+    .footer2 {
+        width: 100vw;
+        height: 8vh;
+        background-color: #CEEFEA;
+    }
+
+}
+
 
 
 
@@ -796,13 +861,13 @@ body {
     
     
     #lien-programme2 {
-        background-color: yellow;
+        background-color: rgb(47, 98, 91);
         padding: 1vw;
-        color: rgb(231, 73, 79);
+        color: white;
         border-radius: 5px;
     }
     h1 {
-        color: #70C5A4;
+        color: #2F625B;
         font-size: 2rem;
         text-transform: uppercase;
         letter-spacing: 2rem;
@@ -869,16 +934,16 @@ body {
         #lien-programme {
             
             &:hover {
-                background-color: yellow;
+                background-color: #2F625B;
             }
             &:hover a {
-                color: black;
+                color: white;
             }
         }
     
         #lien-accueil {
             &:hover {
-                background-color:#E7494F;
+                background-color:#2F625B;
             }
             &:hover a {
                 color: white;
@@ -888,7 +953,7 @@ body {
         
         #lien-histoire {
             &:hover {
-                background-color: #F2A938;
+                background-color: #2F625B;
             }
             &:hover a {
                 color:white;
@@ -897,7 +962,7 @@ body {
     
         #lien-tarif {
             &:hover {
-                background-color: rgb(18, 175, 18);
+                background-color: #2F625B;
             }
             &:hover a {
                 color: white;
@@ -906,7 +971,7 @@ body {
     
         #lien-faq {
             &:hover{
-                background-color: rgb(48, 48, 248);
+                background-color: #2F625B;
             }
             &:hover a {
                 color: white;
@@ -915,7 +980,7 @@ body {
     
         #lien-contact {
             &:hover{
-                background-color:rgb(216, 94, 216);
+                background-color:#2F625B;
             }
             &:hover a {
                 color: white;
@@ -949,6 +1014,9 @@ body {
     
             #accueil-text {
                 text-align: center;
+                #bienvenue h3  {
+                    color: #2F625B;
+                }
                 
                 img{
                     padding-top: 15vh;
@@ -959,7 +1027,7 @@ body {
         
                 h3 {
                     font-size: 4vw;
-                    color: rgb(128, 237, 141);
+                    color: #2F625B;
                     line-height: 2rem;
                 }
         
@@ -983,10 +1051,11 @@ body {
                 margin-top: 4vh;
                 display: none;
             }
+
         }
     
         .accueilvrai h1{
-            background-color: #E7494F;
+            background-color: #2F625B;
             color: white;
             text-transform: uppercase;
             letter-spacing: 0.6rem;
@@ -1015,13 +1084,15 @@ body {
                     width: 100%;
                     height: 360px;
                     padding: 3vw;
-                    background-color: rgb(240, 93, 97);
+                    box-shadow: -11px 9px 5px 0px #2F625B;
+                    border-radius: 10px;
+                    border: 2px solid #2F625B;
                     text-align: justify;
                     margin-right: 2vw;
                     margin-bottom: 5vh;
                     p {
                         margin-top: 3vh;
-                        color: white;
+                        color: rgb(67, 91, 87);
                         font-size: 3vw;
 
                     }
@@ -1029,19 +1100,18 @@ body {
                     h2 {
                         padding-top: 3vh;
                         text-align: center;
-                        color: white;
+                        color: rgb(67, 91, 87);
                         text-decoration : underline;
                     }
                     h3 {
                         padding-top: 3vh;
                         text-align: center;
-                        color: white;
+                        color: rgb(67, 91, 87);
                     }
                      
                     a{
                       text-align: center;
-                      margin-top: 0px;
-                      
+                      margin-top: 0px;          
                       margin-left: 21vw;
                       text-decoration: none;
                     }
@@ -1088,7 +1158,7 @@ body {
                 height: 0;
                 border-style: solid;
                 border-width: 20px 0 0 400px;
-                border-color: transparent transparent transparent #F2A938;
+                border-color: transparent transparent transparent #2F625B;
             }
             .container-histoire{
                 height: 600px;
@@ -1097,7 +1167,7 @@ body {
                     padding: 1vw;
                     font-size: 4vw;  
                     letter-spacing: 0.4vw;                  
-                    background-color: #F2A938;
+                    background-color: #2F625B;
                     color: white;
                 }
                 .container-histoire-row {
@@ -1111,16 +1181,15 @@ body {
                     .container-histoire-row-txt{
                         width: 100%;
                         padding: 3vw;
-                        border: 2px #F2A938 solid;
+                        border: 2px #2F625B;
                         
                         border-radius: 10px;
                         margin-left: 1vw;
-                        background-color: rgb(252, 185, 85);
-                        color: maroon;
+                        background-color: rgb(206, 239, 234);
+                        color: #2F625B;
                         text-align: justify;
                         line-height: 1.3rem;
-                        
-    
+               
                     }
                     .container-histoire-row-img{
                         width: 60%;
@@ -1147,7 +1216,7 @@ body {
                 height: 0;
                 border-style: solid;
                 border-width: 20px 0 0 400px;
-                border-color: transparent transparent transparent yellow;
+                border-color: transparent transparent transparent #2F625B;
             }
             .container-programme{
     
@@ -1156,8 +1225,8 @@ body {
                     letter-spacing: 0.3rem;
                     text-align: center;               
                     font-size: 4vw;              
-                    background-color: yellow;
-                    color: rgb(231, 73, 79);
+                    background-color: #2F625B;
+                    color: white;
                 }
                 .container-programme-row {
                     margin-top: 5vh;
@@ -1218,24 +1287,24 @@ body {
                         height: 100%;
                         padding: 1vw;
                         position: relative;
-                        border: 3px solid #95D21F;
+                        border: 3px solid rgb(77, 91, 49);
                         margin-bottom: 5vh;
                       
                         img {
                             width: 100%;
                         }
                         h3 {
-                            background-color: #95D21F;
+                            background-color: rgb(211, 239, 155);
                             padding: 1vw;
                             text-align: left;
-                            color: white;
+                            color: rgb(77, 91, 49);
                         }
                     }
                     .gym{
                         width: 95%;               
                         height: 100%;
                         padding: 1vw;
-                        border: 3px solid #E2463F;
+                        border: 3px solid #F1B1AE;
                         margin-bottom: 4vh;
                         img{
                             width: 100%;
@@ -1243,8 +1312,8 @@ body {
                         h3 {
                             
                             z-index: 350;
-                            background-color: #E2463F;
-                            color: white;
+                            background-color: #F1B1AE;
+                            color: rgb(86, 64, 64);
                             text-align:left;
                             padding:1vw;
                             font-size: 3vw;
@@ -1256,14 +1325,14 @@ body {
                         width: 95%;
                         height: 100%;
                         padding: 1vw;  
-                        border: #5DCBFA solid 3px;
+                        border: rgb(54, 72, 79) solid 3px;
                         img {
                             width: 100%;
                         }
                         h3 {
                             margin-top: 1.3vw;
-                            background-color: #5DCBFA;
-                            color: white; 
+                            background-color: rgb(176, 230, 252);
+                            color: rgb(54, 72, 79); 
                             text-align: left;
                             padding: 1vw;
                         }              
@@ -1284,7 +1353,7 @@ body {
                 height: 0;
                 border-style: solid;
                 border-width: 20px 0 0 400px;
-                border-color: transparent transparent transparent rgb(18, 175, 18);
+                border-color: transparent transparent transparent #2F625B;
                 margin-top: 3vh;
             }
     
@@ -1292,7 +1361,7 @@ body {
                 padding: 1vw;
                 text-align: center;               
                 font-size: 4vw;              
-                background-color: rgb(18, 175, 18);
+                background-color: #2F625B;
                 color: white;
                 margin-bottom: 3vh;
             }
@@ -1315,7 +1384,8 @@ body {
     
                 #tarifsath {
                     
-                    background-color: rgb(209, 242, 142);
+                    background-color: rgb(233, 247, 202);
+                    color: rgb(68, 76, 49);
                     height: 20vh;
                     width: 40vw;
                     padding-top: 20px;
@@ -1326,7 +1396,8 @@ body {
     
                 #tarifsgym {
                     
-                    background-color: rgb(237, 161, 158);
+                    background-color: rgb(252, 228, 227);
+                    color: rgb(86, 64, 64);
                     height: 20vh;
                     width: 40vw;
                     padding-top: 20px;
@@ -1337,7 +1408,8 @@ body {
     
                 #tarifsnath{
                     
-                    background-color: rgb(196, 236, 252);
+                    background-color: #C4ECFC;
+                    color: rgb(57, 76, 84);
                     height: 20vh;
                     width: 40vw;
                     padding-top: 20px;
@@ -1358,16 +1430,18 @@ body {
                 }
     
                 #tab-txt-ath {
-                    background-color: #95D21F;
+                    background-color: rgb(211, 239, 154);
+                    color: rgb(52, 58, 39);
                 }
     
                 #tab-txt-gym {
-                    background-color: #E2463F;
+                    background-color: #F1B1AE;
+                    color: rgb(84, 57, 56);
                 }
     
                 #tab-txt-nat {
-                    background-color:#5DCBFA;
-                    color: rgb(41, 81, 96);
+                    background-color:#AFE6FC;
+                color: rgb(41, 81, 96);
                 }
     
                 .tab-tarifs {
@@ -1400,13 +1474,13 @@ body {
                 height: 0;
                 border-style: solid;
                 border-width: 20px 0 0 400px;
-                border-color: transparent transparent transparent rgb(48, 48, 248);
+                border-color: transparent transparent transparent #2F625B;
             }
             h1 {
                 padding: 1vw;
                 text-align: center;               
                 font-size: 4vw;              
-                background-color: rgb(48, 48, 248);
+                background-color: #2F625B;
                 color: white;
                 letter-spacing: 0.5rem;
             }
@@ -1467,15 +1541,15 @@ body {
     
       .accordion a:hover,.accordion a:hover::after {
       cursor: pointer;
-      color: #03b5d2;
+      color: #2F625B;
         }
     
         .accordion a:hover::after {
-            border: 1px solid #03b5d2;
+            border: 1px solid #2F625B;
           }
           .accordion a.active {
-            color: #03b5d2;
-            border-bottom: 1px solid #03b5d2;
+            color: #2F625B;
+            border-bottom: 1px solid #2F625B;
           }
     
           .accordion a::after {
@@ -1497,8 +1571,8 @@ body {
           }
           .accordion a.active::after {
             font-family: 'Ionicons';
-            color: #03b5d2;
-            border: 1px solid #03b5d2;
+            color: #2F625B;
+            border: 1px solid #2F625B;
           }
           .accordion .content {
             opacity: 0;
@@ -1540,7 +1614,7 @@ body {
             height: 0;
             border-style: solid;
             border-width: 20px 0 0 400px;
-            border-color: transparent transparent transparent purple;
+            border-color: transparent transparent transparent #2F625B;
             margin-top: 3vh;
         }
     
@@ -1548,7 +1622,7 @@ body {
             padding: 1vw;
             text-align: center;               
             font-size: 4vw;              
-            background-color: purple;
+            background-color: #2F625B;
             color: white;
             margin-bottom: 3vh;
         }
@@ -1568,6 +1642,7 @@ body {
                 img{
                     width: 40%;
                     margin-left: 17vw;
+                    z-index: 4;
                 }
             }
             .contact-text {
@@ -1578,7 +1653,9 @@ body {
                 width: 80%;
                 margin-right: 5vw;
                 text-align: center;
-                background-color: rgb(229, 176, 226);
+                background-color: #CEEFEA;
+                box-shadow: -2px 2px 19px 14px #2F625B;
+                color: rgb(27, 51, 47);
                 padding: 20px;
                 border-radius: 10px;
             }

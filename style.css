@@ -10,14 +10,14 @@
 }
 
 #lien-programme2 {
-  background-color: yellow;
+  background-color: #2f625b;
   padding: 1vw;
-  color: #e7494f;
+  color: white;
   border-radius: 5px;
 }
 
 h1 {
-  color: #70C5A4;
+  color: #2F625B;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
@@ -26,7 +26,7 @@ h1 {
 header {
   height: 20vh;
   width: 100vw;
-  background-color: #e6ebf4;
+  background-color: #CEEFEA;
 }
 
 header #header-left {
@@ -40,7 +40,7 @@ header #header-left {
 }
 
 header #header-left img {
-  width: 100%;
+  width: 80%;
   border-radius: 15px;
 }
 
@@ -63,25 +63,34 @@ header #header-right h4 {
 nav {
   position: fixed;
   width: 15vw;
-  top: 40vh;
+  top: 28vh;
   text-align: center;
   line-height: 2.4rem;
   border-radius: 5px;
   color: white;
   padding: 5px;
-  background-color: #E6EBF4;
+  background-color: #56a599;
+}
+
+nav a {
+  color: white;
+}
+
+nav #lien-programme li {
+  padding: 3px;
 }
 
 nav #lien-programme:hover {
-  background-color: yellow;
+  background-color: #2F625B;
 }
 
 nav #lien-programme:hover a {
-  color: black;
+  padding: 3px;
+  color: white;
 }
 
 nav #lien-accueil:hover {
-  background-color: #E7494F;
+  background-color: #2F625B;
 }
 
 nav #lien-accueil:hover a {
@@ -89,7 +98,7 @@ nav #lien-accueil:hover a {
 }
 
 nav #lien-histoire:hover {
-  background-color: #F2A938;
+  background-color: #2F625B;
 }
 
 nav #lien-histoire:hover a {
@@ -97,7 +106,7 @@ nav #lien-histoire:hover a {
 }
 
 nav #lien-tarif:hover {
-  background-color: #12af12;
+  background-color: #2F625B;
 }
 
 nav #lien-tarif:hover a {
@@ -105,7 +114,7 @@ nav #lien-tarif:hover a {
 }
 
 nav #lien-faq:hover {
-  background-color: #3030f8;
+  background-color: #2F625B;
 }
 
 nav #lien-faq:hover a {
@@ -113,7 +122,7 @@ nav #lien-faq:hover a {
 }
 
 nav #lien-contact:hover {
-  background-color: #d85ed8;
+  background-color: #2F625B;
 }
 
 nav #lien-contact:hover a {
@@ -150,6 +159,10 @@ main .accueil #accueil-text {
   text-align: center;
 }
 
+main .accueil #accueil-text #bienvenue h3 {
+  color: #2F625B;
+}
+
 main .accueil #accueil-text img {
   padding-top: 5vh;
   height: 40vh;
@@ -158,14 +171,25 @@ main .accueil #accueil-text img {
 
 main .accueil #accueil-text h3 {
   font-size: 3vw;
-  color: #80ed8d;
+  color: #2F625B;
   line-height: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 main .accueil #accueil-text p {
   font-size: 2.5vw;
   line-height: 1.5rem;
   color: #488951;
+}
+
+main .accueilvrai #accueil-triangle {
+  margin-top: 15vh;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 0 350px;
+  border-color: transparent transparent transparent #2F625B;
 }
 
 main .accueilvrai-titre {
@@ -189,15 +213,13 @@ main .accueilvrai-titre img {
   margin-top: 4vh;
 }
 
-main .accueilvrai h1 {
-  background-color: #E7494F;
-  color: white;
-  text-transform: uppercase;
+main .accueilvrai-titre h1 {
   text-align: center;
-  margin-top: 5vh;
-  padding: 1vh;
-  margin-left: 3vw;
-  border-radius: 5px;
+  padding: 1vw;
+  font-size: 4vw;
+  background-color: #2F625B;
+  color: white;
+  width: 100vw;
 }
 
 main .actualites {
@@ -230,30 +252,36 @@ main .actualites .actus-et-rentree .rentree {
   width: 110%;
   height: 60vh;
   padding: 3vw;
-  background-color: #f05d61;
+  background-color: #ceefea;
   text-align: justify;
   margin-right: 2vw;
+  border: 2px solid #2F625B;
+  -webkit-box-shadow: -11px 9px 5px 0px #2F625B;
+          box-shadow: -11px 9px 5px 0px #2F625B;
+  border-radius: 10px;
 }
 
 main .actualites .actus-et-rentree .rentree p {
   margin-top: 1vh;
-  color: white;
+  color: #2F625B;
   font-size: 1.5vw;
 }
 
 main .actualites .actus-et-rentree .rentree h2 {
   text-align: center;
-  color: white;
+  color: #2F625B;
   text-decoration: underline;
 }
 
 main .actualites .actus-et-rentree .rentree h3 {
   text-align: center;
-  color: white;
+  color: #2F625B;
 }
 
 main .actualites .actus-et-rentree .rentree a {
   text-align: center;
+  background-color: #2F625B;
+  color: white;
   margin-left: 9vw;
   text-decoration: none;
 }
@@ -303,7 +331,7 @@ main .histoire #histoire-triangle {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #F2A938;
+  border-color: transparent transparent transparent #2F625B;
 }
 
 main .histoire .container-histoire {
@@ -314,7 +342,7 @@ main .histoire .container-histoire h1 {
   text-align: center;
   padding: 1vw;
   font-size: 4vw;
-  background-color: #F2A938;
+  background-color: #2F625B;
   color: white;
 }
 
@@ -339,15 +367,15 @@ main .histoire .container-histoire .container-histoire-row {
 main .histoire .container-histoire .container-histoire-row .container-histoire-row-txt {
   width: 40%;
   padding: 3vw;
-  border: 2px #F2A938 solid;
+  border: 2px #2F625B solid;
   border-radius: 10px;
   margin-left: 1vw;
-  background-color: #fcb955;
-  color: maroon;
+  background-color: #ceefea;
+  color: #2F625B;
   text-align: justify;
   line-height: 1.3rem;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
-          box-shadow: 10px 10px 5px 0px rgba(242, 169, 56, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px #2F625B;
+          box-shadow: 10px 10px 5px 0px #2F625B;
 }
 
 main .histoire .container-histoire .container-histoire-row .container-histoire-row-img {
@@ -367,15 +395,15 @@ main .programme #programme-triangle {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent yellow;
+  border-color: transparent transparent transparent #2F625B;
 }
 
 main .programme .container-programme h1 {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: yellow;
-  color: #e7494f;
+  background-color: #2F625B;
+  color: white;
 }
 
 main .programme .container-programme .container-programme-row {
@@ -461,10 +489,10 @@ main .programme .container-programme .container-programme-row .ath img {
 }
 
 main .programme .container-programme .container-programme-row .ath h3 {
-  background-color: #95D21F;
+  background-color: #d3ef9b;
   padding: 1vw;
   text-align: left;
-  color: white;
+  color: #4d5b31;
 }
 
 main .programme .container-programme .container-programme-row .gym {
@@ -479,8 +507,8 @@ main .programme .container-programme .container-programme-row .gym img {
 
 main .programme .container-programme .container-programme-row .gym h3 {
   z-index: 350;
-  background-color: #E2463F;
-  color: white;
+  background-color: #f7b2af;
+  color: #702320;
   text-align: left;
   padding: 1vw;
   font-size: 1.3vw;
@@ -498,8 +526,8 @@ main .programme .container-programme .container-programme-row .natation img {
 
 main .programme .container-programme .container-programme-row .natation h3 {
   margin-top: 1.3vw;
-  background-color: #5DCBFA;
-  color: white;
+  background-color: #b0e6fc;
+  color: #36484f;
   text-align: left;
   padding: 1vw;
 }
@@ -513,7 +541,7 @@ main .tarifs .triangle-tarifs {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #12af12;
+  border-color: transparent transparent transparent #2F625B;
   margin-top: 3vh;
 }
 
@@ -521,7 +549,7 @@ main .tarifs h1 {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: #12af12;
+  background-color: #2F625B;
   color: white;
   margin-bottom: 3vh;
 }
@@ -561,7 +589,7 @@ main .tarifs .tab {
 }
 
 main .tarifs .tab #tarifsath {
-  background-color: #d1f28e;
+  background-color: #e9f7ca;
   height: 20vh;
   width: 30vw;
   padding-top: 20px;
@@ -572,7 +600,8 @@ main .tarifs .tab #tarifsath h4 {
 }
 
 main .tarifs .tab #tarifsgym {
-  background-color: #eda19e;
+  background-color: #fce4e3;
+  color: #564040;
   height: 20vh;
   width: 30vw;
   padding-top: 20px;
@@ -583,7 +612,8 @@ main .tarifs .tab #tarifsgym h4 {
 }
 
 main .tarifs .tab #tarifsnath {
-  background-color: #c4ecfc;
+  background-color: #C4ECFC;
+  color: #394c54;
   height: 20vh;
   width: 30vw;
   padding-top: 20px;
@@ -614,15 +644,17 @@ main .tarifs .tab .tab-txt {
 }
 
 main .tarifs .tab #tab-txt-ath {
-  background-color: #95D21F;
+  background-color: #d3ef9a;
+  color: #343a27;
 }
 
 main .tarifs .tab #tab-txt-gym {
-  background-color: #E2463F;
+  background-color: #F1B1AE;
+  color: #543938;
 }
 
 main .tarifs .tab #tab-txt-nat {
-  background-color: #5DCBFA;
+  background-color: #AFE6FC;
   color: #295160;
 }
 
@@ -663,14 +695,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #3030f8;
+  border-color: transparent transparent transparent #2F625B;
 }
 
 .foire-questions h1 {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: #3030f8;
+  background-color: #2F625B;
   color: white;
 }
 
@@ -728,16 +760,16 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
 
 .foire-questions .container .accordion a:hover, .foire-questions .container .accordion a:hover::after {
   cursor: pointer;
-  color: #03b5d2;
+  color: #2F625B;
 }
 
 .foire-questions .container .accordion a:hover::after {
-  border: 1px solid #03b5d2;
+  border: 1px solid #2F625B;
 }
 
 .foire-questions .container .accordion a.active {
-  color: #03b5d2;
-  border-bottom: 1px solid #03b5d2;
+  color: #2F625B;
+  border-bottom: 1px solid #2F625B;
 }
 
 .foire-questions .container .accordion a::after {
@@ -757,8 +789,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
 
 .foire-questions .container .accordion a.active::after {
   font-family: 'Ionicons';
-  color: #03b5d2;
-  border: 1px solid #03b5d2;
+  color: #2F625B;
+  border: 1px solid #2F625B;
 }
 
 .foire-questions .container .accordion .content {
@@ -794,7 +826,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent purple;
+  border-color: transparent transparent transparent #2F625B;
   margin-top: 3vh;
 }
 
@@ -802,7 +834,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: purple;
+  background-color: #2F625B;
   color: white;
   margin-bottom: 3vh;
 }
@@ -833,21 +865,57 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
 
 .contact .container-contact .contact-logo img {
   width: 40%;
-  margin-left: 20vw;
+  margin-left: 17vw;
+  z-index: 4;
 }
 
 .contact .container-contact .contact-text {
   width: 60%;
   margin-right: 20vw;
   text-align: center;
-  background-color: #e5b0e2;
+  background-color: #CEEFEA;
+  -webkit-box-shadow: -2px 2px 19px 14px #2F625B;
+          box-shadow: -2px 2px 19px 14px #2F625B;
   padding: 20px;
   border-radius: 10px;
+  color: #1b332f;
 }
 
 .contact .container-contact .contact-text h3 {
   text-align: center;
   padding-top: 1.5vh;
+}
+
+.footer .footer1 {
+  width: 100vw;
+  height: 28vh;
+  background-color: #CEEFEA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.footer .footer1 div {
+  width: 100%;
+  border: red solid 2px;
+  height: 100%;
+}
+
+.footer .footer2 {
+  width: 100vw;
+  height: 8vh;
+  background-color: #CEEFEA;
 }
 
 @media screen and (max-width: 500px) {
@@ -858,13 +926,13 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
             box-sizing: border-box;
   }
   #lien-programme2 {
-    background-color: yellow;
+    background-color: #2f625b;
     padding: 1vw;
-    color: #e7494f;
+    color: white;
     border-radius: 5px;
   }
   h1 {
-    color: #70C5A4;
+    color: #2F625B;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2rem;
@@ -929,37 +997,37 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: black;
   }
   nav #lien-programme:hover {
-    background-color: yellow;
+    background-color: #2F625B;
   }
   nav #lien-programme:hover a {
-    color: black;
+    color: white;
   }
   nav #lien-accueil:hover {
-    background-color: #E7494F;
+    background-color: #2F625B;
   }
   nav #lien-accueil:hover a {
     color: white;
   }
   nav #lien-histoire:hover {
-    background-color: #F2A938;
+    background-color: #2F625B;
   }
   nav #lien-histoire:hover a {
     color: white;
   }
   nav #lien-tarif:hover {
-    background-color: #12af12;
+    background-color: #2F625B;
   }
   nav #lien-tarif:hover a {
     color: white;
   }
   nav #lien-faq:hover {
-    background-color: #3030f8;
+    background-color: #2F625B;
   }
   nav #lien-faq:hover a {
     color: white;
   }
   nav #lien-contact:hover {
-    background-color: #d85ed8;
+    background-color: #2F625B;
   }
   nav #lien-contact:hover a {
     color: white;
@@ -988,6 +1056,9 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   main .accueil #accueil-text {
     text-align: center;
   }
+  main .accueil #accueil-text #bienvenue h3 {
+    color: #2F625B;
+  }
   main .accueil #accueil-text img {
     padding-top: 15vh;
     height: 40vh;
@@ -995,7 +1066,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .accueil #accueil-text h3 {
     font-size: 4vw;
-    color: #80ed8d;
+    color: #2F625B;
     line-height: 2rem;
   }
   main .accueil #accueil-text p {
@@ -1026,7 +1097,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     display: none;
   }
   main .accueilvrai h1 {
-    background-color: #E7494F;
+    background-color: #2F625B;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.6rem;
@@ -1062,26 +1133,29 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     width: 100%;
     height: 360px;
     padding: 3vw;
-    background-color: #f05d61;
+    -webkit-box-shadow: -11px 9px 5px 0px #2F625B;
+            box-shadow: -11px 9px 5px 0px #2F625B;
+    border-radius: 10px;
+    border: 2px solid #2F625B;
     text-align: justify;
     margin-right: 2vw;
     margin-bottom: 5vh;
   }
   main .actualites .actus-et-rentree .rentree p {
     margin-top: 3vh;
-    color: white;
+    color: #435b57;
     font-size: 3vw;
   }
   main .actualites .actus-et-rentree .rentree h2 {
     padding-top: 3vh;
     text-align: center;
-    color: white;
+    color: #435b57;
     text-decoration: underline;
   }
   main .actualites .actus-et-rentree .rentree h3 {
     padding-top: 3vh;
     text-align: center;
-    color: white;
+    color: #435b57;
   }
   main .actualites .actus-et-rentree .rentree a {
     text-align: center;
@@ -1128,7 +1202,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #F2A938;
+    border-color: transparent transparent transparent #2F625B;
   }
   main .histoire .container-histoire {
     height: 600px;
@@ -1138,7 +1212,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     padding: 1vw;
     font-size: 4vw;
     letter-spacing: 0.4vw;
-    background-color: #F2A938;
+    background-color: #2F625B;
     color: white;
   }
   main .histoire .container-histoire .container-histoire-row {
@@ -1161,11 +1235,11 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   main .histoire .container-histoire .container-histoire-row .container-histoire-row-txt {
     width: 100%;
     padding: 3vw;
-    border: 2px #F2A938 solid;
+    border: 2px #2F625B;
     border-radius: 10px;
     margin-left: 1vw;
-    background-color: #fcb955;
-    color: maroon;
+    background-color: #ceefea;
+    color: #2F625B;
     text-align: justify;
     line-height: 1.3rem;
   }
@@ -1186,15 +1260,15 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent yellow;
+    border-color: transparent transparent transparent #2F625B;
   }
   main .programme .container-programme h1 {
     padding: 1vw;
     letter-spacing: 0.3rem;
     text-align: center;
     font-size: 4vw;
-    background-color: yellow;
-    color: #e7494f;
+    background-color: #2F625B;
+    color: white;
   }
   main .programme .container-programme .container-programme-row {
     margin-top: 5vh;
@@ -1264,23 +1338,23 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 100%;
     padding: 1vw;
     position: relative;
-    border: 3px solid #95D21F;
+    border: 3px solid #4d5b31;
     margin-bottom: 5vh;
   }
   main .programme .container-programme .container-programme-row .ath img {
     width: 100%;
   }
   main .programme .container-programme .container-programme-row .ath h3 {
-    background-color: #95D21F;
+    background-color: #d3ef9b;
     padding: 1vw;
     text-align: left;
-    color: white;
+    color: #4d5b31;
   }
   main .programme .container-programme .container-programme-row .gym {
     width: 95%;
     height: 100%;
     padding: 1vw;
-    border: 3px solid #E2463F;
+    border: 3px solid #F1B1AE;
     margin-bottom: 4vh;
   }
   main .programme .container-programme .container-programme-row .gym img {
@@ -1288,8 +1362,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .programme .container-programme .container-programme-row .gym h3 {
     z-index: 350;
-    background-color: #E2463F;
-    color: white;
+    background-color: #F1B1AE;
+    color: #564040;
     text-align: left;
     padding: 1vw;
     font-size: 3vw;
@@ -1298,15 +1372,15 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     width: 95%;
     height: 100%;
     padding: 1vw;
-    border: #5DCBFA solid 3px;
+    border: #36484f solid 3px;
   }
   main .programme .container-programme .container-programme-row .natation img {
     width: 100%;
   }
   main .programme .container-programme .container-programme-row .natation h3 {
     margin-top: 1.3vw;
-    background-color: #5DCBFA;
-    color: white;
+    background-color: #b0e6fc;
+    color: #36484f;
     text-align: left;
     padding: 1vw;
   }
@@ -1318,14 +1392,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #12af12;
+    border-color: transparent transparent transparent #2F625B;
     margin-top: 3vh;
   }
   main .tarifs h1 {
     padding: 1vw;
     text-align: center;
     font-size: 4vw;
-    background-color: #12af12;
+    background-color: #2F625B;
     color: white;
     margin-bottom: 3vh;
   }
@@ -1362,7 +1436,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 25vh;
   }
   main .tarifs .tab #tarifsath {
-    background-color: #d1f28e;
+    background-color: #e9f7ca;
+    color: #444c31;
     height: 20vh;
     width: 40vw;
     padding-top: 20px;
@@ -1371,7 +1446,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 40px;
   }
   main .tarifs .tab #tarifsgym {
-    background-color: #eda19e;
+    background-color: #fce4e3;
+    color: #564040;
     height: 20vh;
     width: 40vw;
     padding-top: 20px;
@@ -1380,7 +1456,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 40px;
   }
   main .tarifs .tab #tarifsnath {
-    background-color: #c4ecfc;
+    background-color: #C4ECFC;
+    color: #394c54;
     height: 20vh;
     width: 40vw;
     padding-top: 20px;
@@ -1408,13 +1485,15 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: white;
   }
   main .tarifs .tab #tab-txt-ath {
-    background-color: #95D21F;
+    background-color: #d3ef9a;
+    color: #343a27;
   }
   main .tarifs .tab #tab-txt-gym {
-    background-color: #E2463F;
+    background-color: #F1B1AE;
+    color: #543938;
   }
   main .tarifs .tab #tab-txt-nat {
-    background-color: #5DCBFA;
+    background-color: #AFE6FC;
     color: #295160;
   }
   main .tarifs .tab .tab-tarifs {
@@ -1449,13 +1528,13 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #3030f8;
+    border-color: transparent transparent transparent #2F625B;
   }
   .foire-questions h1 {
     padding: 1vw;
     text-align: center;
     font-size: 4vw;
-    background-color: #3030f8;
+    background-color: #2F625B;
     color: white;
     letter-spacing: 0.5rem;
   }
@@ -1507,14 +1586,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   .foire-questions .container .accordion a:hover, .foire-questions .container .accordion a:hover::after {
     cursor: pointer;
-    color: #03b5d2;
+    color: #2F625B;
   }
   .foire-questions .container .accordion a:hover::after {
-    border: 1px solid #03b5d2;
+    border: 1px solid #2F625B;
   }
   .foire-questions .container .accordion a.active {
-    color: #03b5d2;
-    border-bottom: 1px solid #03b5d2;
+    color: #2F625B;
+    border-bottom: 1px solid #2F625B;
   }
   .foire-questions .container .accordion a::after {
     font-family: 'Ionicons';
@@ -1532,8 +1611,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   .foire-questions .container .accordion a.active::after {
     font-family: 'Ionicons';
-    color: #03b5d2;
-    border: 1px solid #03b5d2;
+    color: #2F625B;
+    border: 1px solid #2F625B;
   }
   .foire-questions .container .accordion .content {
     opacity: 0;
@@ -1564,14 +1643,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent purple;
+    border-color: transparent transparent transparent #2F625B;
     margin-top: 3vh;
   }
   .contact h1 {
     padding: 1vw;
     text-align: center;
     font-size: 4vw;
-    background-color: purple;
+    background-color: #2F625B;
     color: white;
     margin-bottom: 3vh;
   }
@@ -1601,12 +1680,16 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   .contact .container-contact .contact-logo img {
     width: 40%;
     margin-left: 17vw;
+    z-index: 4;
   }
   .contact .container-contact .contact-text {
     width: 80%;
     margin-right: 5vw;
     text-align: center;
-    background-color: #e5b0e2;
+    background-color: #CEEFEA;
+    -webkit-box-shadow: -2px 2px 19px 14px #2F625B;
+            box-shadow: -2px 2px 19px 14px #2F625B;
+    color: #1b332f;
     padding: 20px;
     border-radius: 10px;
   }

@@ -17,7 +17,7 @@
 }
 
 h1 {
-  color: #2F625B;
+  color: #256aa7;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
@@ -69,7 +69,7 @@ nav {
   border-radius: 5px;
   color: white;
   padding: 5px;
-  background-color: #56a599;
+  background-color: #6daae0;
 }
 
 nav a {
@@ -81,7 +81,7 @@ nav #lien-programme li {
 }
 
 nav #lien-programme:hover {
-  background-color: #2F625B;
+  background-color: #256aa7;
 }
 
 nav #lien-programme:hover a {
@@ -90,7 +90,7 @@ nav #lien-programme:hover a {
 }
 
 nav #lien-accueil:hover {
-  background-color: #2F625B;
+  background-color: #256aa7;
 }
 
 nav #lien-accueil:hover a {
@@ -98,7 +98,7 @@ nav #lien-accueil:hover a {
 }
 
 nav #lien-histoire:hover {
-  background-color: #2F625B;
+  background-color: #256aa7;
 }
 
 nav #lien-histoire:hover a {
@@ -106,7 +106,7 @@ nav #lien-histoire:hover a {
 }
 
 nav #lien-tarif:hover {
-  background-color: #2F625B;
+  background-color: #256aa7;
 }
 
 nav #lien-tarif:hover a {
@@ -114,7 +114,7 @@ nav #lien-tarif:hover a {
 }
 
 nav #lien-faq:hover {
-  background-color: #2F625B;
+  background-color: #256aa7;
 }
 
 nav #lien-faq:hover a {
@@ -122,7 +122,7 @@ nav #lien-faq:hover a {
 }
 
 nav #lien-contact:hover {
-  background-color: #2F625B;
+  background-color: #256aa7;
 }
 
 nav #lien-contact:hover a {
@@ -148,11 +148,17 @@ nav a {
 
 main {
   margin-left: 17%;
-  margin-top: 2%;
+}
+
+main .presentation {
+  width: 100vw;
+  background-size: cover;
+  margin-left: -21%;
 }
 
 main .accueil {
-  height: 70vh;
+  height: 80vh;
+  margin-left: 16%;
 }
 
 main .accueil #accueil-text {
@@ -160,7 +166,7 @@ main .accueil #accueil-text {
 }
 
 main .accueil #accueil-text #bienvenue h3 {
-  color: #2F625B;
+  color: blue;
 }
 
 main .accueil #accueil-text img {
@@ -171,7 +177,7 @@ main .accueil #accueil-text img {
 
 main .accueil #accueil-text h3 {
   font-size: 3vw;
-  color: #2F625B;
+  color: #256aa7;
   line-height: 3rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -180,7 +186,7 @@ main .accueil #accueil-text h3 {
 main .accueil #accueil-text p {
   font-size: 2.5vw;
   line-height: 1.5rem;
-  color: #488951;
+  color: #7fabd1;
 }
 
 main .accueilvrai #accueil-triangle {
@@ -189,7 +195,7 @@ main .accueilvrai #accueil-triangle {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 350px;
-  border-color: transparent transparent transparent #2F625B;
+  border-color: transparent transparent transparent #256aa7;
 }
 
 main .accueilvrai-titre {
@@ -217,7 +223,7 @@ main .accueilvrai-titre h1 {
   text-align: center;
   padding: 1vw;
   font-size: 4vw;
-  background-color: #2F625B;
+  background-color: #256aa7;
   color: white;
   width: 100vw;
 }
@@ -255,9 +261,9 @@ main .actualites .actus-et-rentree .rentree {
   background-color: #ceefea;
   text-align: justify;
   margin-right: 2vw;
-  border: 2px solid #2F625B;
-  -webkit-box-shadow: -11px 9px 5px 0px #2F625B;
-          box-shadow: -11px 9px 5px 0px #2F625B;
+  border: 2px solid #256aa7;
+  -webkit-box-shadow: -11px 9px 5px 0px #256aa7;
+          box-shadow: -11px 9px 5px 0px #256aa7;
   border-radius: 10px;
 }
 
@@ -269,18 +275,18 @@ main .actualites .actus-et-rentree .rentree p {
 
 main .actualites .actus-et-rentree .rentree h2 {
   text-align: center;
-  color: #2F625B;
+  color: #256aa7;
   text-decoration: underline;
 }
 
 main .actualites .actus-et-rentree .rentree h3 {
   text-align: center;
-  color: #2F625B;
+  color: #256aa7;
 }
 
 main .actualites .actus-et-rentree .rentree a {
   text-align: center;
-  background-color: #2F625B;
+  background-color: #256aa7;
   color: white;
   margin-left: 9vw;
   text-decoration: none;
@@ -331,7 +337,7 @@ main .histoire #histoire-triangle {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #2F625B;
+  border-color: transparent transparent transparent #256aa7;
 }
 
 main .histoire .container-histoire {
@@ -342,12 +348,11 @@ main .histoire .container-histoire h1 {
   text-align: center;
   padding: 1vw;
   font-size: 4vw;
-  background-color: #2F625B;
+  background-color: #256aa7;
   color: white;
 }
 
 main .histoire .container-histoire .container-histoire-row {
-  margin-top: 8vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,6 +367,9 @@ main .histoire .container-histoire .container-histoire-row {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  background: url(./medias/images/bouee.jpg) center no-repeat fixed;
+  background-size: cover;
+  height: 85vh;
 }
 
 main .histoire .container-histoire .container-histoire-row .container-histoire-row-txt {
@@ -371,11 +379,11 @@ main .histoire .container-histoire .container-histoire-row .container-histoire-r
   border-radius: 10px;
   margin-left: 1vw;
   background-color: #ceefea;
-  color: #2F625B;
+  color: #256aa7;
   text-align: justify;
   line-height: 1.3rem;
-  -webkit-box-shadow: 10px 10px 5px 0px #2F625B;
-          box-shadow: 10px 10px 5px 0px #2F625B;
+  -webkit-box-shadow: 10px 10px 5px 0px #256AA7;
+          box-shadow: 10px 10px 5px 0px #256AA7;
 }
 
 main .histoire .container-histoire .container-histoire-row .container-histoire-row-img {
@@ -395,14 +403,14 @@ main .programme #programme-triangle {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #2F625B;
+  border-color: transparent transparent transparent #256aa7;
 }
 
 main .programme .container-programme h1 {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: #2F625B;
+  background-color: #256aa7;
   color: white;
 }
 
@@ -541,7 +549,7 @@ main .tarifs .triangle-tarifs {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #2F625B;
+  border-color: transparent transparent transparent #256aa7;
   margin-top: 3vh;
 }
 
@@ -549,7 +557,7 @@ main .tarifs h1 {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: #2F625B;
+  background-color: #256aa7;
   color: white;
   margin-bottom: 3vh;
 }
@@ -695,14 +703,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #2F625B;
+  border-color: transparent transparent transparent #256aa7;
 }
 
 .foire-questions h1 {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: #2F625B;
+  background-color: #256aa7;
   color: white;
 }
 
@@ -826,7 +834,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   height: 0;
   border-style: solid;
   border-width: 20px 0 0 800px;
-  border-color: transparent transparent transparent #2F625B;
+  border-color: transparent transparent transparent #256aa7;
   margin-top: 3vh;
 }
 
@@ -834,7 +842,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   padding: 1vw;
   text-align: center;
   font-size: 4vw;
-  background-color: #2F625B;
+  background-color: #256aa7;
   color: white;
   margin-bottom: 3vh;
 }
@@ -874,8 +882,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   margin-right: 20vw;
   text-align: center;
   background-color: #CEEFEA;
-  -webkit-box-shadow: -2px 2px 19px 14px #2F625B;
-          box-shadow: -2px 2px 19px 14px #2F625B;
+  -webkit-box-shadow: -2px 2px 19px 14px #256aa7;
+          box-shadow: -2px 2px 19px 14px #256aa7;
   padding: 20px;
   border-radius: 10px;
   color: #1b332f;
@@ -926,13 +934,13 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
             box-sizing: border-box;
   }
   #lien-programme2 {
-    background-color: #2f625b;
+    background-color: #256aa7;
     padding: 1vw;
     color: white;
     border-radius: 5px;
   }
   h1 {
-    color: #2F625B;
+    color: #256aa7;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2rem;
@@ -997,37 +1005,37 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: black;
   }
   nav #lien-programme:hover {
-    background-color: #2F625B;
+    background-color: #256aa7;
   }
   nav #lien-programme:hover a {
     color: white;
   }
   nav #lien-accueil:hover {
-    background-color: #2F625B;
+    background-color: #256aa7;
   }
   nav #lien-accueil:hover a {
     color: white;
   }
   nav #lien-histoire:hover {
-    background-color: #2F625B;
+    background-color: #256aa7;
   }
   nav #lien-histoire:hover a {
     color: white;
   }
   nav #lien-tarif:hover {
-    background-color: #2F625B;
+    background-color: #256aa7;
   }
   nav #lien-tarif:hover a {
     color: white;
   }
   nav #lien-faq:hover {
-    background-color: #2F625B;
+    background-color: #256aa7;
   }
   nav #lien-faq:hover a {
     color: white;
   }
   nav #lien-contact:hover {
-    background-color: #2F625B;
+    background-color: #256aa7;
   }
   nav #lien-contact:hover a {
     color: white;
@@ -1066,7 +1074,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .accueil #accueil-text h3 {
     font-size: 4vw;
-    color: #2F625B;
+    color: #256aa7;
     line-height: 2rem;
   }
   main .accueil #accueil-text p {
@@ -1097,7 +1105,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     display: none;
   }
   main .accueilvrai h1 {
-    background-color: #2F625B;
+    background-color: #256aa7;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.6rem;
@@ -1133,29 +1141,29 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     width: 100%;
     height: 360px;
     padding: 3vw;
-    -webkit-box-shadow: -11px 9px 5px 0px #2F625B;
-            box-shadow: -11px 9px 5px 0px #2F625B;
+    -webkit-box-shadow: -11px 9px 5px 0px #256aa7;
+            box-shadow: -11px 9px 5px 0px #256aa7;
     border-radius: 10px;
-    border: 2px solid #2F625B;
+    border: 2px solid #256aa7;
     text-align: justify;
     margin-right: 2vw;
     margin-bottom: 5vh;
   }
   main .actualites .actus-et-rentree .rentree p {
     margin-top: 3vh;
-    color: #435b57;
+    color: #256aa7;
     font-size: 3vw;
   }
   main .actualites .actus-et-rentree .rentree h2 {
     padding-top: 3vh;
     text-align: center;
-    color: #435b57;
+    color: #256aa7;
     text-decoration: underline;
   }
   main .actualites .actus-et-rentree .rentree h3 {
     padding-top: 3vh;
     text-align: center;
-    color: #435b57;
+    color: #256aa7;
   }
   main .actualites .actus-et-rentree .rentree a {
     text-align: center;
@@ -1202,7 +1210,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #2F625B;
+    border-color: transparent transparent transparent #256aa7;
   }
   main .histoire .container-histoire {
     height: 600px;
@@ -1212,7 +1220,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     padding: 1vw;
     font-size: 4vw;
     letter-spacing: 0.4vw;
-    background-color: #2F625B;
+    background-color: #256aa7;
     color: white;
   }
   main .histoire .container-histoire .container-histoire-row {
@@ -1260,14 +1268,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #2F625B;
+    border-color: transparent transparent transparent #256aa7;
   }
   main .programme .container-programme h1 {
     padding: 1vw;
     letter-spacing: 0.3rem;
     text-align: center;
     font-size: 4vw;
-    background-color: #2F625B;
+    background-color: #256aa7;
     color: white;
   }
   main .programme .container-programme .container-programme-row {
@@ -1392,14 +1400,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #2F625B;
+    border-color: transparent transparent transparent #256aa7;
     margin-top: 3vh;
   }
   main .tarifs h1 {
     padding: 1vw;
     text-align: center;
     font-size: 4vw;
-    background-color: #2F625B;
+    background-color: #256aa7;
     color: white;
     margin-bottom: 3vh;
   }
@@ -1528,13 +1536,13 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #2F625B;
+    border-color: transparent transparent transparent #256aa7;
   }
   .foire-questions h1 {
     padding: 1vw;
     text-align: center;
     font-size: 4vw;
-    background-color: #2F625B;
+    background-color: #256aa7;
     color: white;
     letter-spacing: 0.5rem;
   }
@@ -1643,14 +1651,14 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 0;
     border-style: solid;
     border-width: 20px 0 0 400px;
-    border-color: transparent transparent transparent #2F625B;
+    border-color: transparent transparent transparent #256aa7;
     margin-top: 3vh;
   }
   .contact h1 {
     padding: 1vw;
     text-align: center;
     font-size: 4vw;
-    background-color: #2F625B;
+    background-color: #256aa7;
     color: white;
     margin-bottom: 3vh;
   }
@@ -1687,8 +1695,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     margin-right: 5vw;
     text-align: center;
     background-color: #CEEFEA;
-    -webkit-box-shadow: -2px 2px 19px 14px #2F625B;
-            box-shadow: -2px 2px 19px 14px #2F625B;
+    -webkit-box-shadow: -2px 2px 19px 14px #256aa7;
+            box-shadow: -2px 2px 19px 14px #256aa7;
     color: #1b332f;
     padding: 20px;
     border-radius: 10px;

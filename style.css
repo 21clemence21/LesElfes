@@ -982,7 +982,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     height: 400px;
     top: 19vh;
     text-align: center;
-    line-height: 1.1rem;
+    line-height: 1rem;
     border-radius: 5px;
     color: #256aa7;
     padding: 4px;
@@ -1053,7 +1053,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   nav li {
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #256aa7;
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
@@ -1068,10 +1068,10 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main {
     margin-left: 17%;
-    margin-top: 20vh;
+    margin-top: 18vh;
   }
   main .accueil {
-    height: 70vh;
+    height: 55vh;
   }
   main .accueil #accueil-text {
     text-align: center;
@@ -1229,7 +1229,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     border-color: transparent transparent transparent #256aa7;
   }
   main .histoire .container-histoire {
-    height: 600px;
+    height: 500px;
   }
   main .histoire .container-histoire h1 {
     text-align: center;
@@ -1240,7 +1240,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: white;
   }
   main .histoire .container-histoire .container-histoire-row {
-    margin-top: 8vh;
+    margin-top: 0vh;
+    height: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1254,23 +1255,25 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 90%;
+    width: 100%;
+    background: url(./medias/images/bouee.jpg) center no-repeat fixed;
+    background-size: cover;
   }
   main .histoire .container-histoire .container-histoire-row .container-histoire-row-txt {
-    width: 100%;
+    width: 90%;
     padding: 3vw;
-    border: 2px #2F625B;
+    border: 2px #256aa7;
     border-radius: 10px;
     margin-left: 1vw;
     background-color: #ceefea;
-    color: #2F625B;
+    color: #256aa7;
     text-align: justify;
     line-height: 1.3rem;
   }
   main .histoire .container-histoire .container-histoire-row .container-histoire-row-img {
     width: 60%;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
   }
   main .histoire .container-histoire .container-histoire-row .container-histoire-row-img img {
     width: 100%;
@@ -1295,7 +1298,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: white;
   }
   main .programme .container-programme .container-programme-row {
-    margin-top: 5vh;
+    margin-top: 3vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

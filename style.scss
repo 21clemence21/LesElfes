@@ -932,7 +932,7 @@ body {
         height: 400px;
         top: 19vh;
         text-align: center;
-        line-height: 1.1rem;
+        line-height: 1rem;
         border-radius: 5px;
         color: rgb(37, 106, 167);
         padding: 4px;
@@ -1016,7 +1016,7 @@ body {
     
         li {
             list-style-type: none;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             color: rgb(37, 106, 167);
             transition: 0.3s ease-in-out ;
             &:hover {
@@ -1034,10 +1034,10 @@ body {
     main{
        
         margin-left: 17%;
-        margin-top: 20vh;
+        margin-top: 18vh;
     
         .accueil {
-            height: 70vh;
+            height: 55vh;
             
     
             #accueil-text {
@@ -1195,7 +1195,7 @@ body {
                 border-color: transparent transparent transparent rgb(37, 106, 167);
             }
             .container-histoire{
-                height: 600px;
+                height: 500px;
                 h1{
                     text-align: center;
                     padding: 1vw;
@@ -1205,30 +1205,32 @@ body {
                     color: white;
                 }
                 .container-histoire-row {
-                    margin-top: 8vh;
+                    margin-top: 0vh;
+                    height: 500px;
                     display: flex; 
                     flex-direction : column-reverse; 
                     justify-content: center;
                     align-items: center;
-                    width: 90%;
+                    width: 100%;
+                    background: url(./medias/images/bouee.jpg) center no-repeat fixed;
+                    background-size: cover;
             
                     .container-histoire-row-txt{
-                        width: 100%;
+                        width: 90%;
                         padding: 3vw;
-                        border: 2px #2F625B;
-                        
+                        border: 2px rgb(37, 106, 167);
                         border-radius: 10px;
                         margin-left: 1vw;
                         background-color: rgb(206, 239, 234);
-                        color: #2F625B;
+                        color: rgb(37, 106, 167);
                         text-align: justify;
                         line-height: 1.3rem;
                
                     }
                     .container-histoire-row-img{
                         width: 60%;
-                        margin-top: 4vh;
-                        margin-bottom:4vh;
+                        margin-top: 0vh;
+                        margin-bottom:0vh;
                     
                         img{
                             width: 100%;
@@ -1258,13 +1260,12 @@ body {
                     padding: 1vw;
                     letter-spacing: 0.3rem;
                     text-align: center;               
-                    font-size: 4vw;              
+                    font-size: 4vw;             
                     background-color: rgb(37, 106, 167);
                     color: white;
                 }
                 .container-programme-row {
-                    margin-top: 5vh;
-                    
+                    margin-top: 3vh;
                     display: flex;
                     flex-direction: column; 
                     justify-content: space-evenly;
@@ -1413,7 +1414,6 @@ body {
                 justify-content: center;
                 align-items: center;
                 width: 78vw;
-               
                 height: 25vh;
     
                 #tarifsath {

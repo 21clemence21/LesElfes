@@ -26,7 +26,6 @@ h1 {
 }
 
 header {
-  height: 20vh;
   width: 100vw;
   background-color: #CEEFEA;
 }
@@ -49,7 +48,8 @@ header #header-left img {
 header #header-right {
   margin-left: 17%;
   text-align: center;
-  height: 100%;
+  padding-bottom: 3vh;
+  background-color: #CEEFEA;
 }
 
 header #header-right h1 {
@@ -65,7 +65,7 @@ header #header-right h4 {
 nav {
   position: fixed;
   width: 15vw;
-  top: 22vh;
+  top: 30vh;
   text-align: center;
   line-height: 2.4rem;
   border-radius: 5px;
@@ -75,7 +75,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: black;
 }
 
 nav #lien-programme li {
@@ -159,7 +159,6 @@ main .presentation {
 }
 
 main .accueil {
-  height: 80vh;
   margin-left: 16%;
 }
 
@@ -173,7 +172,7 @@ main .accueil #accueil-text #bienvenue h3 {
 
 main .accueil #accueil-text img {
   padding-top: 5vh;
-  height: 40vh;
+  height: 35vh;
   margin-bottom: 10px;
 }
 
@@ -183,12 +182,15 @@ main .accueil #accueil-text h3 {
   line-height: 3rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  width: 100%;
 }
 
 main .accueil #accueil-text p {
   font-size: 2.5vw;
-  line-height: 1.5rem;
+  line-height: 2rem;
   color: #7fabd1;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 main .accueilvrai #accueil-triangle {
@@ -232,7 +234,7 @@ main .accueilvrai-titre h1 {
 
 main .actualites {
   width: 70vw;
-  margin-left: 5vw;
+  margin-right: 5vw;
   text-align: center;
 }
 
@@ -254,15 +256,20 @@ main .actualites .actus-et-rentree {
 
 main .actualites .actus-et-rentree .lesactus {
   width: 100%;
+  margin-left: 5vw;
+}
+
+main .actualites .actus-et-rentree .lesactus h2 {
+  border: #256aa7 solid 3px;
+  margin-bottom: 5vh;
 }
 
 main .actualites .actus-et-rentree .rentree {
-  width: 110%;
-  height: 70vh;
+  width: 100%;
   padding: 3vw;
   background-color: #ceefea;
   text-align: justify;
-  margin-right: 2vw;
+  margin-left: 8vw;
   border: 2px solid #256aa7;
   -webkit-box-shadow: -11px 9px 5px 0px #256aa7;
           box-shadow: -11px 9px 5px 0px #256aa7;
@@ -272,7 +279,7 @@ main .actualites .actus-et-rentree .rentree {
 main .actualites .actus-et-rentree .rentree p {
   margin-top: 1vh;
   color: #2F625B;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 
 main .actualites .actus-et-rentree .rentree h2 {
@@ -320,17 +327,18 @@ main .actualites .actualites-photos {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-top: 1vh;
+  height: 25vh;
 }
 
 main .actualites .actualites-photos div img {
-  width: 30%;
+  height: 25vh;
 }
 
 main .histoire #histoire-triangle {
@@ -340,10 +348,6 @@ main .histoire #histoire-triangle {
   border-style: solid;
   border-width: 20px 0 0 800px;
   border-color: transparent transparent transparent #256aa7;
-}
-
-main .histoire .container-histoire {
-  height: 100vh;
 }
 
 main .histoire .container-histoire h1 {
@@ -371,11 +375,12 @@ main .histoire .container-histoire .container-histoire-row {
   width: 100%;
   background: url(./medias/images/bouee.jpg) center no-repeat fixed;
   background-size: cover;
-  height: 85vh;
 }
 
 main .histoire .container-histoire .container-histoire-row .container-histoire-row-txt {
-  width: 40%;
+  width: 60%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   padding: 3vw;
   border: 2px #2F625B solid;
   border-radius: 10px;
@@ -397,7 +402,7 @@ main .histoire .container-histoire .container-histoire-row .container-histoire-r
 }
 
 main .programme {
-  height: 100vh;
+  margin-top: 10vh;
 }
 
 main .programme #programme-triangle {
@@ -432,12 +437,11 @@ main .programme .container-programme .container-programme-row {
           align-items: center;
   width: 80vw;
   text-align: center;
-  height: 85vh;
 }
 
 main .programme .container-programme .container-programme-row .horaires {
-  height: 8vh;
-  padding-top: 1vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 main .programme .container-programme .container-programme-row .adresse {
@@ -532,18 +536,15 @@ main .programme .container-programme .container-programme-row .natation {
 
 main .programme .container-programme .container-programme-row .natation img {
   width: 100%;
+  margin-top: 3.3vh;
 }
 
 main .programme .container-programme .container-programme-row .natation h3 {
-  margin-top: 1.3vw;
+  margin-top: 0vw;
   background-color: #b0e6fc;
   color: #36484f;
   text-align: left;
   padding: 1vw;
-}
-
-main .tarifs {
-  height: 100vh;
 }
 
 main .tarifs .triangle-tarifs {
@@ -595,47 +596,33 @@ main .tarifs .tab {
       -ms-flex-align: center;
           align-items: center;
   width: 60vw;
-  height: 25vh;
+  height: 120px;
+  margin-bottom: 3vh;
 }
 
 main .tarifs .tab #tarifsath {
   background-color: #e9f7ca;
-  height: 20vh;
   width: 30vw;
   padding-top: 20px;
-}
-
-main .tarifs .tab #tarifsath h4 {
-  height: 40px;
 }
 
 main .tarifs .tab #tarifsgym {
   background-color: #fce4e3;
   color: #564040;
-  height: 20vh;
   width: 30vw;
   padding-top: 20px;
-}
-
-main .tarifs .tab #tarifsgym h4 {
-  height: 40px;
 }
 
 main .tarifs .tab #tarifsnath {
   background-color: #C4ECFC;
   color: #394c54;
-  height: 20vh;
   width: 30vw;
   padding-top: 20px;
 }
 
-main .tarifs .tab #tarifsnath h4 {
-  height: 40px;
-}
-
 main .tarifs .tab .tab-txt {
   width: 60%;
-  height: 20vh;
+  height: 100%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -673,6 +660,7 @@ main .tarifs .tab .tab-tarifs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -691,10 +679,15 @@ main .tarifs .tab .tab-tarifs h4 {
 
 main .tarifs .tab .tab-tarifs .nombreenfants {
   width: 13vw;
+  height: 20vh;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
 }
 
 main .tarifs .tab .tab-tarifs .tarifsenfants {
   width: 13vw;
+  height: 20vh;
+  margin-top: 3vh;
 }
 
 .foire-questions {
@@ -706,6 +699,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   border-style: solid;
   border-width: 20px 0 0 800px;
   border-color: transparent transparent transparent #256aa7;
+  margin-top: 7vh;
 }
 
 .foire-questions h1 {
@@ -827,10 +821,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   transition: all 0.35s ease 0.15s;
 }
 
-.contact {
-  height: 70vh;
-}
-
 .contact .triangle-contact {
   width: 0;
   height: 0;
@@ -863,7 +853,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 6vh;
+  margin-top: 13vh;
 }
 
 .contact .container-contact .contact-logo {
@@ -896,6 +886,10 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   padding-top: 1.5vh;
 }
 
+.footer {
+  margin-top: 15vh;
+}
+
 .footer .footer2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -916,7 +910,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
 
 .footer .footer1 {
   width: 100vw;
-  height: 28vh;
   background-color: #CEEFEA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -993,7 +986,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
 
 .footer .footer2 {
   width: 100vw;
-  height: 8vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #CEEFEA;
   border: #6DAAE0 solid 2px;
   color: #256AA7;
@@ -1019,9 +1013,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     letter-spacing: 2rem;
   }
   header {
-    height: 20vh;
     width: 100vw;
-    background-color: #e6ebf4;
+    background-color: #CEEFEA;
   }
   header #header-left {
     width: 10vw;
@@ -1039,6 +1032,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     margin-left: 17%;
     text-align: center;
     height: 100%;
+    padding-bottom: 3vh;
+    background-color: #CEEFEA;
   }
   header #header-right h1 {
     padding-top: 5%;
@@ -1053,7 +1048,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     position: absolute;
     width: 100vw;
     height: 400px;
-    top: 19vh;
+    top: 16vh;
     text-align: center;
     line-height: 1rem;
     border-radius: 5px;
@@ -1143,9 +1138,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     margin-left: 17%;
     margin-top: 18vh;
   }
-  main .accueil {
-    height: 55vh;
-  }
   main .accueil #accueil-text {
     text-align: center;
   }
@@ -1165,7 +1157,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   main .accueil #accueil-text p {
     font-size: 3vw;
     line-height: 1rem;
-    color: #488951;
+    color: #4794d8;
   }
   main .accueilvrai #accueil-triangle {
     margin-top: 15vh;
@@ -1228,7 +1220,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .actualites .actus-et-rentree .rentree {
     width: 100%;
-    height: 360px;
     padding: 3vw;
     -webkit-box-shadow: -11px 9px 5px 0px #256aa7;
             box-shadow: -11px 9px 5px 0px #256aa7;
@@ -1301,9 +1292,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     border-width: 20px 0 0 350px;
     border-color: transparent transparent transparent #256aa7;
   }
-  main .histoire .container-histoire {
-    height: 500px;
-  }
   main .histoire .container-histoire h1 {
     text-align: center;
     padding: 1vw;
@@ -1313,8 +1301,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: white;
   }
   main .histoire .container-histoire .container-histoire-row {
-    margin-top: 0vh;
-    height: 500px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1351,9 +1339,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   main .histoire .container-histoire .container-histoire-row .container-histoire-row-img img {
     width: 100%;
   }
-  main .programme {
-    height: 300vh;
-  }
   main .programme #programme-triangle {
     margin-top: 8vh;
     width: 0;
@@ -1371,7 +1356,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: white;
   }
   main .programme .container-programme .container-programme-row {
-    margin-top: -10vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1387,11 +1371,10 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
             align-items: center;
     width: 80vw;
     text-align: center;
-    height: 200vh;
   }
   main .programme .container-programme .container-programme-row .horaires {
-    height: 8vh;
     padding-top: 1vh;
+    padding-bottom: 1vh;
   }
   main .programme .container-programme .container-programme-row .adresse {
     border: 2px #E6EBF4 solid;
@@ -1484,16 +1467,13 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     text-align: left;
     padding: 1vw;
   }
-  main .tarifs {
-    height: 90vh;
-  }
   main .tarifs .triangle-tarifs {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 20px 0 0 350px;
+    border-width: 20px 0 0 400px;
     border-color: transparent transparent transparent #256aa7;
-    margin-top: 3vh;
+    margin-top: 12vh;
   }
   main .tarifs h1 {
     padding: 1vw;
@@ -1519,55 +1499,37 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
             align-items: center;
   }
   main .tarifs .tab {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 78vw;
-    height: 25vh;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 245px;
+    width: 100%;
+    margin-bottom: 7vh;
+    border: black 2px solid;
+  }
+  main .tarifs .tab div {
+    width: 100%;
   }
   main .tarifs .tab #tarifsath {
+    width: 100%;
     background-color: #e9f7ca;
     color: #444c31;
-    height: 20vh;
-    width: 40vw;
     padding-top: 20px;
-  }
-  main .tarifs .tab #tarifsath h4 {
-    height: 40px;
   }
   main .tarifs .tab #tarifsgym {
     background-color: #fce4e3;
     color: #564040;
-    height: 20vh;
-    width: 40vw;
+    width: 100%;
     padding-top: 20px;
-  }
-  main .tarifs .tab #tarifsgym h4 {
-    height: 40px;
   }
   main .tarifs .tab #tarifsnath {
+    width: 100%;
     background-color: #C4ECFC;
     color: #394c54;
-    height: 20vh;
-    width: 40vw;
     padding-top: 20px;
   }
-  main .tarifs .tab #tarifsnath h4 {
-    height: 40px;
-  }
   main .tarifs .tab .tab-txt {
-    width: 55%;
-    height: 20vh;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1583,6 +1545,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
         -ms-flex-align: center;
             align-items: center;
     color: white;
+    width: 100%;
   }
   main .tarifs .tab #tab-txt-ath {
     background-color: #d3ef9a;
@@ -1616,10 +1579,12 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     text-decoration: underline;
   }
   main .tarifs .tab .tab-tarifs .nombreenfants {
-    width: 20vw;
+    width: 100%;
+    margin-bottom: 3vh;
   }
   main .tarifs .tab .tab-tarifs .tarifsenfants {
-    width: 20vw;
+    width: 100%;
+    margin-top: 3vh;
   }
   .foire-questions {
   }
@@ -1629,6 +1594,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     border-style: solid;
     border-width: 20px 0 0 350px;
     border-color: transparent transparent transparent #256aa7;
+    margin-top: 7vh;
   }
   .foire-questions h1 {
     padding: 1vw;
@@ -1735,9 +1701,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     -webkit-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
   }
-  .contact {
-    height: 100vh;
-  }
   .contact .triangle-contact {
     width: 0;
     height: 0;
@@ -1768,7 +1731,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 6vh;
+    margin-top: 13vh;
   }
   .contact .container-contact .contact-logo {
     width: 80%;
@@ -1798,7 +1761,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     padding-top: 1.5vh;
   }
   .footer .footer1 {
-    height: 40vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
   .footer .footer1 .navigation {
     width: 15vw;
@@ -1880,9 +1844,10 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     letter-spacing: 2rem;
   }
   header {
-    height: 20vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     width: 100vw;
-    background-color: #e6ebf4;
+    background-color: #CEEFEA;
   }
   header #header-left {
     width: 10vw;
@@ -1900,9 +1865,11 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     margin-left: 17%;
     text-align: center;
     height: 100%;
+    padding-bottom: 3vh;
+    background-color: #CEEFEA;
   }
   header #header-right h1 {
-    padding-top: 5%;
+    padding-top: 1%;
     font-size: 2rem;
     letter-spacing: 0.9rem;
   }
@@ -1914,7 +1881,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     position: absolute;
     width: 100vw;
     height: 400px;
-    top: 19vh;
+    top: 18vh;
     text-align: center;
     line-height: 1rem;
     border-radius: 5px;
@@ -2002,10 +1969,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main {
     margin-left: 17%;
-    margin-top: 23vh;
-  }
-  main .accueil {
-    height: 55vh;
+    margin-top: 50vh;
   }
   main .accueil #accueil-text {
     text-align: center;
@@ -2089,7 +2053,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .actualites .actus-et-rentree .rentree {
     width: 100%;
-    height: 500px;
     padding: 3vw;
     -webkit-box-shadow: -11px 9px 5px 0px #256aa7;
             box-shadow: -11px 9px 5px 0px #256aa7;
@@ -2174,8 +2137,8 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: white;
   }
   main .histoire .container-histoire .container-histoire-row {
-    margin-top: 0vh;
-    height: 500px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2212,9 +2175,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   main .histoire .container-histoire .container-histoire-row .container-histoire-row-img img {
     width: 100%;
   }
-  main .programme {
-    height: 390vh;
-  }
   main .programme #programme-triangle {
     margin-top: 12vh;
     width: 0;
@@ -2232,7 +2192,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     color: white;
   }
   main .programme .container-programme .container-programme-row {
-    margin-top: 42vh;
+    margin-top: 3vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2248,11 +2208,10 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
             align-items: center;
     width: 80vw;
     text-align: center;
-    height: 300vh;
   }
   main .programme .container-programme .container-programme-row .horaires {
-    height: 8vh;
     padding-top: 1vh;
+    padding-bottom: 1vh;
   }
   main .programme .container-programme .container-programme-row .adresse {
     border: 2px #E6EBF4 solid;
@@ -2296,8 +2255,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .programme .container-programme .container-programme-row .ath {
     width: 95%;
-    height: 100%;
-    padding: 1vw;
+    padding: 0vw;
     position: relative;
     border: 3px solid #4d5b31;
     margin-bottom: 5vh;
@@ -2313,8 +2271,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .programme .container-programme .container-programme-row .gym {
     width: 95%;
-    height: 100%;
-    padding: 1vw;
+    padding: 0vw;
     border: 3px solid #F1B1AE;
     margin-bottom: 4vh;
   }
@@ -2331,22 +2288,21 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
   }
   main .programme .container-programme .container-programme-row .natation {
     width: 95%;
-    height: 100%;
     padding: 1vw;
     border: #36484f solid 3px;
+    margin-bottom: 5vh;
   }
   main .programme .container-programme .container-programme-row .natation img {
     width: 100%;
+    margin-top: 1vh;
   }
   main .programme .container-programme .container-programme-row .natation h3 {
-    margin-top: 1.3vw;
+    margin-top: 1vw;
     background-color: #b0e6fc;
     color: #36484f;
     text-align: left;
     padding: 1vw;
-  }
-  main .tarifs {
-    height: 90vh;
+    margin-top: 0;
   }
   main .tarifs .triangle-tarifs {
     width: 0;
@@ -2380,55 +2336,37 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
             align-items: center;
   }
   main .tarifs .tab {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 78vw;
-    height: 25vh;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 245px;
+    width: 70%;
+    margin-bottom: 7vh;
+    border: black 2px solid;
+  }
+  main .tarifs .tab div {
+    width: 100%;
   }
   main .tarifs .tab #tarifsath {
+    width: 100%;
     background-color: #e9f7ca;
     color: #444c31;
-    height: 20vh;
-    width: 40vw;
     padding-top: 20px;
-  }
-  main .tarifs .tab #tarifsath h4 {
-    height: 40px;
   }
   main .tarifs .tab #tarifsgym {
     background-color: #fce4e3;
     color: #564040;
-    height: 20vh;
-    width: 40vw;
+    width: 100%;
     padding-top: 20px;
-  }
-  main .tarifs .tab #tarifsgym h4 {
-    height: 40px;
   }
   main .tarifs .tab #tarifsnath {
+    width: 100%;
     background-color: #C4ECFC;
     color: #394c54;
-    height: 20vh;
-    width: 40vw;
     padding-top: 20px;
   }
-  main .tarifs .tab #tarifsnath h4 {
-    height: 40px;
-  }
   main .tarifs .tab .tab-txt {
-    width: 55%;
-    height: 20vh;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2444,6 +2382,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
         -ms-flex-align: center;
             align-items: center;
     color: white;
+    width: 100%;
   }
   main .tarifs .tab #tab-txt-ath {
     background-color: #d3ef9a;
@@ -2477,10 +2416,12 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     text-decoration: underline;
   }
   main .tarifs .tab .tab-tarifs .nombreenfants {
-    width: 20vw;
+    width: 100%;
+    margin-bottom: 3vh;
   }
   main .tarifs .tab .tab-tarifs .tarifsenfants {
-    width: 20vw;
+    width: 100%;
+    margin-top: 3vh;
   }
   .foire-questions {
   }
@@ -2597,9 +2538,6 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     -webkit-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
   }
-  .contact {
-    height: 100vh;
-  }
   .contact .triangle-contact {
     width: 0;
     height: 0;
@@ -2630,7 +2568,7 @@ main .tarifs .tab .tab-tarifs .tarifsenfants {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 6vh;
+    margin-top: 13vh;
   }
   .contact .container-contact .contact-logo {
     width: 80%;

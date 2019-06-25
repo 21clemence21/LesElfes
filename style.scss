@@ -21,11 +21,10 @@ h1 {
 }
 header {
     
-    height: 20vh;
+    
     width: 100vw; 
     background-color: #CEEFEA;
     
-
     #header-left {
         width: 10vw; 
         height: auto;
@@ -34,6 +33,7 @@ header {
         z-index: 3000;
         left: 2vw;
         top: 1vw;
+    
         img {
             width: 60%;
             border-radius: 15px;
@@ -44,7 +44,9 @@ header {
         
         margin-left: 17%;
         text-align: center;
-        height: 100%;
+        padding-bottom: 3vh;
+        background-color: #CEEFEA;
+
         h1 {
             padding-top: 1%;
             font-size: 4rem;
@@ -61,11 +63,11 @@ header {
 nav {
     
     a {
-        color: white;
+        color: black;
     }
     position: fixed;
     width: 15vw;
-    top: 22vh;
+    top: 30vh;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 5px;
@@ -160,11 +162,12 @@ main{
         //background: url(./medias/images/bouee.jpg) center no-repeat fixed;
         background-size: cover;
         margin-left: -21%;
+       
 
     }
 
     .accueil {
-        height: 80vh;
+        
         margin-left: 16%;
         
 
@@ -178,7 +181,7 @@ main{
             
             img{
                 padding-top: 5vh;
-                height: 40vh;
+                height: 35vh;
                 margin-bottom: 10px;
               
             }
@@ -188,13 +191,16 @@ main{
                 color: rgb(37, 106, 167);
                 line-height: 3rem;
                 padding-top: 1.5rem;
-                padding-bottom: 1.5rem;   
+                padding-bottom: 1.5rem; 
+                width: 100%;  
             }
     
             p {
                 font-size: 2.5vw;
-                line-height: 1.5rem;
+                line-height: 2rem;
                 color: rgb(127, 171, 209);
+                padding-left: 5vw;
+                padding-right: 5vw;
             }  
         }  
     }
@@ -232,11 +238,9 @@ main{
         }  
     }
 
-
-
     .actualites {
         width: 70vw;
-        margin-left: 5vw;
+        margin-right: 5vw;
         text-align: center;
     
 
@@ -248,22 +252,27 @@ main{
             align-items: center;
             .lesactus {
                 width: 100%;
+                margin-left: 5vw;
+                h2 {
+                    border: rgb(37, 106, 167) solid 3px;
+                    margin-bottom: 5vh;
+                }
                 
             }
             .rentree{
-                width: 110%;
-                height: 70vh;
+                width: 100%;
+                
                 padding: 3vw;
                 background-color: rgb(206, 239, 234);
                 text-align: justify;
-                margin-right: 2vw;
+                margin-left: 8vw;
                 border: 2px solid rgb(37, 106, 167);
                 box-shadow: -11px 9px 5px 0px rgb(37, 106, 167);
                 border-radius: 10px;
                 p {
                     margin-top: 1vh;
                     color: #2F625B;
-                    font-size: 1.5vw;
+                    font-size: 1vw;
                 }
                
                 h2 {
@@ -310,11 +319,12 @@ main{
         .actualites-photos {
             display: flex; 
             flex-direction: row; 
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
-            padding-top: 1vh;       
+            padding-top: 1vh; 
+            height: 25vh;      
             div img {
-                width: 30%;
+                height: 25vh;
             }
         }
     }
@@ -329,7 +339,7 @@ main{
             border-color: transparent transparent transparent rgb(37, 106, 167);
         }
         .container-histoire{
-            height: 100vh;
+            
             h1{
                 text-align: center;
                 padding: 1vw;
@@ -347,11 +357,13 @@ main{
                 width: 100%;
                 background: url(./medias/images/bouee.jpg) center no-repeat fixed;
                 background-size: cover;
-                height: 85vh;
+               
 
         
                 .container-histoire-row-txt{
-                    width: 40%;
+                    width: 60%;
+                    margin-top: 10vh;
+                    margin-bottom: 10vh;
                     padding: 3vw;
                     border: 2px #2F625B solid;
                     
@@ -378,8 +390,8 @@ box-shadow: 10px 10px 5px 0px #256AA7;
     }
 
     .programme {
-       
-        height: 100vh;
+        margin-top: 10vh;
+        
 
         #programme-triangle{
            
@@ -405,11 +417,12 @@ box-shadow: 10px 10px 5px 0px #256AA7;
                 align-items: center;
                 width: 80vw;
                 text-align: center;
-                height: 85vh;
+                
 
                 .horaires {
-                    height: 8vh; 
-                    padding-top: 1vh;      
+                    
+                    padding-top: 2vh;    
+                    padding-bottom: 2vh;  
                 }
            
                 .adresse{
@@ -491,9 +504,10 @@ box-shadow: 10px 10px 5px 0px #256AA7;
                     padding: 1vw;  
                     img {
                         width: 100%;
+                        margin-top: 3.3vh;
                     }
                     h3 {
-                        margin-top: 1.3vw;
+                        margin-top: 0vw;
                         background-color: rgb(176, 230, 252);
                         color: rgb(54, 72, 79); 
                         text-align: left;
@@ -509,7 +523,7 @@ box-shadow: 10px 10px 5px 0px #256AA7;
     //debut de section tarifs
 
     .tarifs {
-        height: 100vh;
+        
     
         .triangle-tarifs {
             width: 0;
@@ -542,18 +556,18 @@ box-shadow: 10px 10px 5px 0px #256AA7;
             justify-content: center;
             align-items: center;
             width: 60vw;
+            height: 120px;
+            margin-bottom : 3vh;
            
-            height: 25vh;
+            
 
             #tarifsath {
                 
                 background-color:  rgb(233, 247, 202);
-                height: 20vh;
+                
                 width: 30vw;
                 padding-top: 20px;
-                h4 {
-                    height: 40px;
-                }
+             
             }
 
             #tarifsgym {
@@ -561,34 +575,31 @@ box-shadow: 10px 10px 5px 0px #256AA7;
                 
                 background-color: rgb(252, 228, 227);
                 color: rgb(86, 64, 64);
-                height: 20vh;
+                
                 width: 30vw;
                 padding-top: 20px;
-                h4 {
-                    height: 40px;
-                }
+              
             }
 
             #tarifsnath{
                 background-color: #C4ECFC;
                 color: rgb(57, 76, 84);
-                height: 20vh;
+                
                 width: 30vw;
                 padding-top: 20px;
-                h4 {
-                    height: 40px;
-                }
+               
             }
          
             .tab-txt {
                 width: 60%;
-                height: 20vh;
+                height: 100%;
                 text-align: center;
                 display: flex; 
                 flex-direction: column;
                 justify-content: center;
                 align-items:center;
                 color: white;
+
             }
 
             #tab-txt-ath {
@@ -609,6 +620,7 @@ box-shadow: 10px 10px 5px 0px #256AA7;
             .tab-tarifs {
                 width: 100%;
                 display: flex;
+                height: 100%;
                 flex-direction: row;
                 justify-content: left;
                 text-align: center;
@@ -619,9 +631,15 @@ box-shadow: 10px 10px 5px 0px #256AA7;
                 }
                 .nombreenfants {
                     width: 13vw;
+                    height: 20vh;
+                    margin-bottom: 3vh;
+                    margin-top:3vh;
                 }
+
                 .tarifsenfants {
                     width: 13vw;
+                    height: 20vh;
+                    margin-top: 3vh;
                 }
             }         
             }
@@ -637,6 +655,7 @@ box-shadow: 10px 10px 5px 0px #256AA7;
             border-style: solid;
             border-width: 20px 0 0 800px;
             border-color: transparent transparent transparent rgb(37, 106, 167);
+            margin-top: 7vh;
         }
         h1 {
             padding: 1vw;
@@ -768,7 +787,7 @@ body {
 }
 
 .contact {
-    height: 70vh;
+    
 
     .triangle-contact {
         width: 0;
@@ -794,7 +813,7 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 6vh;
+        margin-top: 13vh;
         
         .contact-logo {
             width: 80%;
@@ -823,7 +842,7 @@ body {
     }
 }
 .footer {
-   
+     margin-top: 15vh;
 
     .footer2 {
         display:flex;
@@ -831,14 +850,13 @@ body {
         justify-content: center;
         align-items: center;
         border: #6DAAE0 solid 2px;
-       
         color: #256AA7;
         
     }
 
     .footer1{
         width: 100vw;
-        height: 28vh;
+       
         background-color: #CEEFEA;
         display: flex;
         flex-direction: row;
@@ -898,7 +916,8 @@ body {
     }}
     .footer2 {
         width: 100vw;
-        height: 8vh;
+        padding-top: 10px;
+        padding-bottom: 10px;
         background-color: #CEEFEA;
         border: #6DAAE0 solid 2px;
        
@@ -948,9 +967,9 @@ body {
     }
     header {
         
-        height: 20vh;
+        
         width: 100vw; 
-        background-color: rgb(230, 235, 244);
+        background-color: #CEEFEA;
         
     
         #header-left {
@@ -960,6 +979,7 @@ body {
             position: fixed; 
             left: 2vw;
             top: 2vw;
+           
             img {
                 width: 100%;
                 border-radius: 15px;
@@ -971,6 +991,8 @@ body {
             margin-left: 17%;
             text-align: center;
             height: 100%;
+            padding-bottom: 3vh;
+            background-color: #CEEFEA;
             h1 {
                 padding-top: 5%;
                 font-size: 2rem;
@@ -989,7 +1011,7 @@ body {
         position: absolute;
         width: 100vw;
         height: 400px;
-        top: 19vh;
+        top: 16vh;
         text-align: center;
         line-height: 1rem;
         border-radius: 5px;
@@ -1012,8 +1034,7 @@ body {
                 padding-top: 8px;
                 padding-bottom: 8px;
                 text-transform: uppercase;
-                
-                
+
             }
         }
     
@@ -1096,8 +1117,7 @@ body {
         margin-top: 18vh;
     
         .accueil {
-            height: 55vh;
-            
+                     
     
             #accueil-text {
                 text-align: center;
@@ -1121,7 +1141,7 @@ body {
                 p {
                     font-size: 3vw;
                     line-height: 1rem;
-                    color: rgb(72, 137, 81);
+                    color: rgb(71, 148, 216);
                 }  
             }  
         }
@@ -1175,7 +1195,7 @@ body {
                 }
                 .rentree{
                     width: 100%;
-                    height: 360px;
+                    
                     padding: 3vw;
                     box-shadow: -11px 9px 5px 0px rgb(37, 106, 167);
                     border-radius: 10px;
@@ -1254,7 +1274,7 @@ body {
                 border-color: transparent transparent transparent rgb(37, 106, 167);
             }
             .container-histoire{
-                height: 500px;
+                
                 h1{
                     text-align: center;
                     padding: 1vw;
@@ -1264,8 +1284,8 @@ body {
                     color: white;
                 }
                 .container-histoire-row {
-                    margin-top: 0vh;
-                    height: 500px;
+                    margin-top: 3vh;
+                    margin-bottom : 3vh;
                     display: flex; 
                     flex-direction : column-reverse; 
                     justify-content: center;
@@ -1303,7 +1323,7 @@ body {
     
         .programme {
            
-            height: 300vh;
+           
     
             #programme-triangle{
                 margin-top: 8vh;
@@ -1324,18 +1344,19 @@ body {
                     color: white;
                 }
                 .container-programme-row {
-                    margin-top: -10vh;
+                    
                     display: flex;
                     flex-direction: column; 
                     justify-content: space-evenly;
                     align-items: center;
                     width: 80vw;
                     text-align: center;
-                    height: 200vh;
+                    
     
                     .horaires {
-                        height: 8vh; 
-                        padding-top: 1vh;      
+                        
+                        padding-top: 1vh;
+                        padding-bottom:1vh;      
                     }
                
                     .adresse{
@@ -1440,15 +1461,15 @@ body {
         //debut de section tarifs
     
         .tarifs {
-            height: 90vh;
+            
         
             .triangle-tarifs {
                 width: 0;
                 height: 0;
                 border-style: solid;
-                border-width: 20px 0 0 350px;
+                border-width: 20px 0 0 400px;
                 border-color: transparent transparent transparent rgb(37, 106, 167);
-                margin-top: 3vh;
+                margin-top: 12vh;
             }
     
             h1 {
@@ -1468,58 +1489,47 @@ body {
             }
     
             .tab {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                width: 78vw;
-                height: 25vh;
-    
+                flex-direction: column;
+                height: 245px;
+                width: 100%;
+                margin-bottom: 7vh;
+                border: black 2px solid;
+                div {
+                    width: 100%;
+                }
                 #tarifsath {
-                    
+                    width: 100%;
                     background-color: rgb(233, 247, 202);
                     color: rgb(68, 76, 49);
-                    height: 20vh;
-                    width: 40vw;
                     padding-top: 20px;
-                    h4 {
-                        height: 40px;
-                    }
+                    
                 }
     
                 #tarifsgym {
                     
                     background-color: rgb(252, 228, 227);
                     color: rgb(86, 64, 64);
-                    height: 20vh;
-                    width: 40vw;
+                    width: 100%;
                     padding-top: 20px;
-                    h4 {
-                        height: 40px;
-                    }
+                   
                 }
     
                 #tarifsnath{
+                    width: 100%;
                     
                     background-color: #C4ECFC;
                     color: rgb(57, 76, 84);
-                    height: 20vh;
-                    width: 40vw;
                     padding-top: 20px;
-                    h4 {
-                        height: 40px;
-                    }
                 }
              
                 .tab-txt {
-                    width: 55%;
-                    height: 20vh;
                     text-align: center;
                     display: flex; 
                     flex-direction: column;
                     justify-content: center;
                     align-items:center;
                     color: white;
+                    width: 100%;
                 }
     
                 #tab-txt-ath {
@@ -1549,10 +1559,12 @@ body {
                         text-decoration: underline;
                     }
                     .nombreenfants {
-                        width: 20vw;
+                        width: 100%;
+                        margin-bottom: 3vh;
                     }
                     .tarifsenfants {
-                        width: 20vw;
+                        width:100%;
+                        margin-top: 3vh;
                     }
                 }         
                 }
@@ -1568,6 +1580,7 @@ body {
                 border-style: solid;
                 border-width: 20px 0 0 350px;
                 border-color: transparent transparent transparent rgb(37, 106, 167);
+                margin-top: 7vh;
             }
             h1 {
                 padding: 1vw;
@@ -1647,7 +1660,6 @@ body {
     
           .accordion a::after {
             font-family: 'Ionicons';
-            
             position: absolute;
             float: right;
             right: 1rem;
@@ -1700,7 +1712,7 @@ body {
     }
     
     .contact {
-        height: 100vh;
+        
     
         .triangle-contact {
             width: 0;
@@ -1726,7 +1738,7 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 6vh;
+            margin-top: 13vh;
             
             .contact-logo {
                 width: 80%;
@@ -1759,7 +1771,8 @@ body {
     .footer  {
        
         .footer1 {
-            height: 40vh;
+            padding-top: 3vh;
+            padding-bottom: 3vh;
             
             .navigation {
 
@@ -1843,9 +1856,10 @@ body {
     }
     header {
         
-        height: 20vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
         width: 100vw; 
-        background-color: rgb(230, 235, 244);
+        background-color:  #CEEFEA;;
         
     
         #header-left {
@@ -1866,8 +1880,10 @@ body {
             margin-left: 17%;
             text-align: center;
             height: 100%;
+            padding-bottom: 3vh;
+            background-color: #CEEFEA;
             h1 {
-                padding-top: 5%;
+                padding-top: 1%;
                 font-size: 2rem;
                 letter-spacing: 0.9rem;
                 
@@ -1884,7 +1900,7 @@ body {
         position: absolute;
         width: 100vw;
         height: 400px;
-        top: 19vh;
+        top: 18vh;
         text-align: center;
         line-height: 1rem;
         border-radius: 5px;
@@ -1988,14 +2004,16 @@ body {
     main{
        
         margin-left: 17%;
-        margin-top: 23vh;
+        margin-top: 50vh;
     
         .accueil {
-            height: 55vh;
+            
             
     
             #accueil-text {
                 text-align: center;
+                
+                
                 #bienvenue h3  {
                     color: #2F625B;
                 }
@@ -2070,7 +2088,7 @@ body {
                 }
                 .rentree{
                     width: 100%;
-                    height: 500px;
+                   
                     padding: 3vw;
                     box-shadow: -11px 9px 5px 0px rgb(37, 106, 167);
                     border-radius: 10px;
@@ -2159,8 +2177,8 @@ body {
                     color: white;
                 }
                 .container-histoire-row {
-                    margin-top: 0vh;
-                    height: 500px;
+                    margin-top: 3vh;
+                    margin-bottom: 3vh;
                     display: flex; 
                     flex-direction : column-reverse; 
                     justify-content: center;
@@ -2198,7 +2216,7 @@ body {
     
         .programme {
            
-            height: 390vh;
+            
     
             #programme-triangle{
                 margin-top: 12vh;
@@ -2219,18 +2237,18 @@ body {
                     color: white;
                 }
                 .container-programme-row {
-                    margin-top: 42vh;
+                    margin-top: 3vh;
                     display: flex;
                     flex-direction: column; 
                     justify-content: space-evenly;
                     align-items: center;
                     width: 80vw;
                     text-align: center;
-                    height: 300vh;
+                   
     
                     .horaires {
-                        height: 8vh; 
-                        padding-top: 1vh;      
+                        padding-top: 1vh;
+                        padding-bottom:1vh;       
                     }
                
                     .adresse{
@@ -2272,9 +2290,7 @@ body {
                     }
                     .ath{
                         width: 95%;
-                       
-                        height: 100%;
-                        padding: 1vw;
+                        padding: 0vw;
                         position: relative;
                         border: 3px solid rgb(77, 91, 49);
                         margin-bottom: 5vh;
@@ -2291,8 +2307,7 @@ body {
                     }
                     .gym{
                         width: 95%;               
-                        height: 100%;
-                        padding: 1vw;
+                        padding: 0vw;
                         border: 3px solid #F1B1AE;
                         margin-bottom: 4vh;
                         img{
@@ -2311,19 +2326,21 @@ body {
                     }
     
                     .natation {
-                        width: 95%;
-                        height: 100%;
+                        width: 95%;                        
                         padding: 1vw;  
                         border: rgb(54, 72, 79) solid 3px;
+                        margin-bottom: 5vh;
                         img {
                             width: 100%;
+                            margin-top: 1vh;
                         }
                         h3 {
-                            margin-top: 1.3vw;
+                            margin-top: 1vw;
                             background-color: rgb(176, 230, 252);
                             color: rgb(54, 72, 79); 
                             text-align: left;
                             padding: 1vw;
+                            margin-top: 0;
                         }              
                     }
                 }
@@ -2335,7 +2352,7 @@ body {
         //debut de section tarifs
     
         .tarifs {
-            height: 90vh;
+            
         
             .triangle-tarifs {
                 width: 0;
@@ -2363,58 +2380,47 @@ body {
             }
     
             .tab {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                width: 78vw;
-                height: 25vh;
-    
+                flex-direction: column;
+                height: 245px;
+                width: 70%;
+                margin-bottom: 7vh;
+                border: black 2px solid;
+                div {
+                    width: 100%;
+                }
                 #tarifsath {
-                    
+                    width: 100%;
                     background-color: rgb(233, 247, 202);
                     color: rgb(68, 76, 49);
-                    height: 20vh;
-                    width: 40vw;
                     padding-top: 20px;
-                    h4 {
-                        height: 40px;
-                    }
+                    
                 }
     
                 #tarifsgym {
                     
                     background-color: rgb(252, 228, 227);
                     color: rgb(86, 64, 64);
-                    height: 20vh;
-                    width: 40vw;
+                    width: 100%;
                     padding-top: 20px;
-                    h4 {
-                        height: 40px;
-                    }
+                   
                 }
     
                 #tarifsnath{
+                    width: 100%;
                     
                     background-color: #C4ECFC;
                     color: rgb(57, 76, 84);
-                    height: 20vh;
-                    width: 40vw;
                     padding-top: 20px;
-                    h4 {
-                        height: 40px;
-                    }
                 }
              
                 .tab-txt {
-                    width: 55%;
-                    height: 20vh;
                     text-align: center;
                     display: flex; 
                     flex-direction: column;
                     justify-content: center;
                     align-items:center;
                     color: white;
+                    width: 100%;
                 }
     
                 #tab-txt-ath {
@@ -2444,10 +2450,12 @@ body {
                         text-decoration: underline;
                     }
                     .nombreenfants {
-                        width: 20vw;
+                        width: 100%;
+                        margin-bottom: 3vh;
                     }
                     .tarifsenfants {
-                        width: 20vw;
+                        width:100%;
+                        margin-top: 3vh;
                     }
                 }         
                 }
@@ -2596,7 +2604,7 @@ body {
     }
     
     .contact {
-        height: 100vh;
+        
     
         .triangle-contact {
             width: 0;
@@ -2622,7 +2630,7 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 6vh;
+            margin-top: 13vh;
             
             .contact-logo {
                 width: 80%;
@@ -2662,8 +2670,7 @@ body {
                     color: white;
                 }
                 
-                width: 15vw;
-               
+                width: 15vw;     
                 text-align: center;
                 line-height: 1.6rem;
                 border-radius: 5px;
